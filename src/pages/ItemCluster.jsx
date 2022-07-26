@@ -12,7 +12,7 @@ const ItemCluster = () => {
     return (
         <>
             <div>{cutOffUrl(decodeURI(search))}</div>
-            <div>{id}</div>
+            {/* <div>{id}</div> */}
         </>
     )
 }
