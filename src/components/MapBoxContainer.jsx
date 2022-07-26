@@ -12,7 +12,7 @@ import artem from '../images/artem.png';
 const MapBoxContainer = () => {
 
     return (
-        <div className='map_box-container'>
+        <div /* className='map_box-container' */>
             {
                 dataSource.map(cluster =>
                     <Link to={{
