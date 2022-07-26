@@ -5,7 +5,7 @@ ENV HOST 0.0.0.0
 ENV APP_ROOT /frontend
 
 WORKDIR /frontend
-COPY package.json package-lock.json server.js ./
+COPY . ./
 RUN npm ci
 
 
