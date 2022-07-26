@@ -18,8 +18,9 @@ ENV HOST 0.0.0.0
 ENV APP_ROOT /frontend
 
 WORKDIR /frontend
-COPY . ./
+COPY package*.json ./
 RUN npm i
-COPY --from=builder /frontend/dist /frontend/dist
+COPY --from=builder /frontend/build /frontend/build
+COPY --from=builder /frontend/server.js ./server.js
 
 CMD npm start
