@@ -34,6 +34,12 @@ a {
     right: 375px;
     top: 13px;
 
+
+}
+
+.cluster_1:hover {
+    fill: rgba(255, 92, 0, 0.45);
+    ;
 }
 
 .marker_cluster_1 {
@@ -42,15 +48,20 @@ a {
     bottom: 585px;
 }
 
-.dot_1{
+.dot_1 {
     position: absolute;
     right: 640px;
     bottom: 633px;
 }
+
 .cluster_2 {
     position: absolute;
     left: 620px;
     top: 110px;
+}
+
+.cluster_2:hover {
+    fill: rgba(250, 0, 195, 0.45);
 }
 
 .cluster_3 {
@@ -59,16 +70,28 @@ a {
     top: 280px;
 }
 
+.cluster_3:hover {
+    fill:rgba(0, 250, 70, 0.45);
+}
+
 .cluster_4 {
     position: absolute;
     left: 405px;
     top: 517px;
 }
 
+.cluster_4:hover {
+    fill: rgba(51, 0, 253, 0.45);
+}
+
 .cluster_5 {
     position: absolute;
     left: 225px;
     top: 560px;
+}
+
+.cluster_5:hover {
+    fill: rgba(248, 253, 0, 0.45);
 }
 
 .descrition_page {

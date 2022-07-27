@@ -3,12 +3,12 @@ import styled from "styled-components";
 import dataSource from '../helper/dataSource';
 import { Link } from 'react-router-dom';
 import encodeURI from '../utils/encodeURI';
-import cluster_1 from '../images/cluster_1.svg';
-import background from '../images/background.svg';
-import cluster_2 from '../images/cluster_2.svg';
-import cluster_3 from '../images/cluster_3.svg';
-import cluster_4 from '../images/cluster_4.svg';
-import cluster_5 from '../images/cluster_5.svg';
+// import background from '../images/background.svg';
+import {ReactComponent as Cluster_1} from '../images/cluster_1.svg';
+import {ReactComponent as Cluster_2} from '../images/cluster_2.svg';
+import {ReactComponent as Cluster_3} from '../images/cluster_3.svg';
+import {ReactComponent as Cluster_4} from '../images/cluster_4.svg';
+import {ReactComponent as Cluster_5} from '../images/cluster_5.svg';
 import marker_cluster_1 from '../images/marker_cluster_1.svg';
 import dot_1 from '../images/dot_1.svg';
 import *as icons from './icons.jsx';
@@ -24,11 +24,12 @@ const MapBoxContainer = () => {
 
     return (
         <div className='map_box-container'>
-            <img src={cluster_1} alt="???" className='cluster_1' />
-            <img src={cluster_2} alt="???" className='cluster_2' />
-            <img src={cluster_3} alt="???" className='cluster_3' />
-            <img src={cluster_4} alt="???" className='cluster_4' />
-            <img src={cluster_5} alt="???" className='cluster_5' />
+            <Cluster_1 className='cluster_1' />
+            <Cluster_2 className='cluster_2' />
+            <Cluster_3 className='cluster_3' />
+            <Cluster_4 className='cluster_4' />
+            <Cluster_5 className='cluster_5' />
+       
             <img src={marker_cluster_1} alt="???" className='marker_cluster_1' />
             <img src={dot_1} alt="???" className='dot_1' />
           
