@@ -1,0 +1,94 @@
+.container_page_cluster_1 {
+    width: 100%;
+    height: 100vh;
+    background: #010F1F;
+
+}
+
+.header_container_page_cluster_1 {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 33px;
+
+}
+
+.header_btn_back {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header_btn_back_description {
+    margin-left: 15px;
+    font-family: 'Graphik LC Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #00589B;
+}
+
+.header_cluster_1_name {
+    width: 754px;
+    height: 38px;
+    font-family: 'Graphik LC Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 38px;
+    color: #FFFFFF;
+    padding-left: 340px;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    margin-top: 39px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.section_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 287px;
+    height: 860px;
+    /* border: 1px solid white; */
+}
+
+.logistic_card {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.section_center {
+    margin-left: 20px;
+    width: 1266px;
+    height: 860px;
+    border-radius: 2000px;
+    /* border: 1px solid white; */
+}
+
+.logistic_cluster {
+    position: relative;
+    bottom: -40px;
+    left: 57px;
+}
+
+.section_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    width: 287px;
+    height: 860px;
+    /* border: 1px solid white; */
+}

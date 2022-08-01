@@ -1,8 +1,14 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import MainPage from './pages/MainPage';
 import ItemCluster from './pages/ItemCluster';
-import styles from '../src/styles/styles.css';
+import ItemLogisticProject from './pages/ItemLogisticProject';
+import mainpage from '../src/styles/mainpage.css';
+import cluster_1 from '../src/styles/cluster_1.css'
 
+import '../src/fonts/Graphik-Black-Web.ttf';
+import '../src/fonts/Graphik-Bold-Web.ttf';
+import '../src/fonts/Graphik-Medium-Web.ttf';
+import '../src/fonts/Graphik-Regular-Web.ttf';
 
 
 function App() {
@@ -13,6 +19,8 @@ function App() {
         <Routes>
           <Route path='/' element={<MainPage />} />
           <Route path='/cluster/:id' element={<ItemCluster />} />
+          <Route path='/cluster/:id/project/:id' element={<ItemLogisticProject />} />
+
         </Routes>
       </BrowserRouter>
     </div>
