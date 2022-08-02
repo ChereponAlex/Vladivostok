@@ -57,16 +57,17 @@ a {
     position: fixed;
     right: 372px;
     top: 5px;
+    pointer-events: none;
 }
 
 #path_1 {
     /* fill: rgba(255, 92, 0, 0); */
     fill: rgba(255, 92, 0, 0.45);
+    pointer-events: all !important;
 }
 
 #path_1:hover {
-    cursor: pointer;
-    /* pointer-events: all; */
+    cursor: pointer;    
 }
 
 .marker_cluster_1 {
@@ -90,7 +91,7 @@ a {
     position: fixed;
     left: 620px;
     top: 100px;
-
+    pointer-events: none;
 }
 
 .marker_cluster_2 {
@@ -113,6 +114,7 @@ a {
 #path_2 {
     /* fill: rgba(255, 92, 0, 0); */
     fill: rgba(250, 0, 195, 0.45);
+    pointer-events: all !important;
 }
 
 #path_2:hover {
@@ -124,6 +126,7 @@ a {
     position: fixed;
     left: 435px;
     top: 272px;
+    pointer-events: none;
 }
 
 .marker_cluster_3 {
@@ -147,6 +150,7 @@ a {
 #path_3 {
     /* fill: rgba(255, 92, 0, 0); */
     fill: rgba(0, 250, 70, 0.45);
+    pointer-events: all !important;
 }
 
 #path_3:hover {
@@ -158,6 +162,7 @@ a {
     position: fixed;
     left: 405px;
     top: 505px;
+    pointer-events: none;
 }
 
 .marker_cluster_4 {
@@ -181,6 +186,7 @@ a {
 #path_4 {
     /* fill: rgba(255, 92, 0, 0); */
     fill: rgba(51, 0, 253, 0.45);
+    pointer-events: all !important;
 }
 
 #path_4:hover {
@@ -191,6 +197,7 @@ a {
     position: fixed;
     left: 227px;
     top: 547px;
+    pointer-events: none;
 }
 
 .cluster_name_position_5{
@@ -213,8 +220,8 @@ a {
 
 #path_5 {
     /* fill: rgba(255, 92, 0, 0); */
-    fill: rgba(248, 253, 0, 0.45);
-    /* z-index: -10; */
+    fill: rgba(248, 253, 0, 0.45);   
+    pointer-events: all !important;
 }
 
 #path_5:hover {

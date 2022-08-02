@@ -5,15 +5,6 @@ import cutOffUrl from '../utils/cutOffUrl';
 import backgroundPNG from '../images/cluster_page.png';
 import mainpage from '../styles/mainpage.css';
 import { ReactComponent as Back_btn } from '../images/backButton.svg';
-// import back_btn from '../images/backButton.png'
-import { ReactComponent as Logistic_1 } from '../images/logistic_1.svg';
-import { ReactComponent as Logistic_2 } from '../images/logistic_2.svg';
-import { ReactComponent as Logistic_3 } from '../images/logistic_3.svg';
-import { ReactComponent as Logistic_4 } from '../images/logistic_4.svg';
-import { ReactComponent as Logistic_5 } from '../images/logistic_5.svg';
-import { ReactComponent as Logistic_6 } from '../images/logistic_6.svg';
-import { ReactComponent as Logistic_7 } from '../images/logistic_7.svg';
-import { ReactComponent as Logistic_8 } from '../images/logistic_8.svg';
 
 import { ReactComponent as Logistic_map } from '../images/logistic_map.svg';
 import { ReactComponent as Logistic_cluster } from '../images/logistic_cluster.svg';
@@ -36,43 +27,36 @@ const ItemCluster = () => {
                         </div>
                         <div className='header_cluster_1_name'>Логистически-производственный пояс</div>
                     </header>
-                    {/* <div className=''></div> */}
-                    {/* <main className='main_container'>
-                        {
-                            dataLogisticProject.map(({ id, name, Project }, index) => {
-                                return (
-                                    <div key={id}>
-                                        {
-                                            <section className={index >= 0 && index < 5 ? 'section_left' : 'section_right'} key={id}>
-                                                <Project className='logistic_card' onClick={() => navigate(`/cluster/1/project/${id}`)} />
-                                            </section>
-                                        }
-                                    </div>
-                                )
-                            })
-                        }
-                        <section className='section_center'>
-                            <Logistic_map style={{ position: 'absolute' }} />
-                            <Logistic_cluster className='logistic_cluster' />
-                        </section>
-                    </main> */}
+
                     <main className='main_container'>
-                        <section className='section_left'>
-                            <Logistic_1 className='logistic_card' />
-                            <Logistic_2 className='logistic_card' />
-                            <Logistic_3 className='logistic_card' />
-                            <Logistic_4 className='logistic_card' />
+                        
+                        <section className='section_left' >
+                            {
+                                dataLogisticProject.slice(0, 4).map(({ id, name, Project }) => {
+                                    return <Project className='logistic_card' onClick={() => navigate(`/cluster/1/project/${id}`)} key={id} />
+                                })
+                            }
                         </section>
+
                         <section className='section_center'>
                             <Logistic_map style={{ position: 'absolute' }} />
                             {/* <Logistic_cluster className='logistic_cluster' /> */}
+                            {/* {dataLogisticProject.map(({ id, name, Point }) => {
+                                return (
+                                    <Point/>
+                                )
+                            })} */}
+
                         </section>
-                        <section className='section_right'>
-                            <Logistic_5 className='logistic_card' />
-                            <Logistic_6 className='logistic_card' />
-                            <Logistic_7 className='logistic_card' />
-                            <Logistic_8 className='logistic_card' />
+
+                        <section className='section_right' >
+                            {
+                                dataLogisticProject.slice(4, 8).map(({ id, name, Project }) => {
+                                    return <Project className='logistic_card' onClick={() => navigate(`/cluster/1/project/${id}`)} key={id} />
+                                })
+                            }
                         </section>
+                        
                     </main>
 
                 </div>
@@ -123,3 +107,22 @@ export default ItemCluster;
     <Logistic_8 className='logistic_card' />
 </section>
 </main> */}
+{/* <main className='main_container'>
+                        {
+                            dataLogisticProject.map(({ id, name, Project }, index) => {
+                                return (
+                                    <div key={id}>
+                                        {
+                                            <section className={index >= 0 && index < 5 ? 'section_left' : 'section_right'} key={id}>
+                                                <Project className='logistic_card' onClick={() => navigate(`/cluster/1/project/${id}`)} />
+                                            </section>
+                                        }
+                                    </div>
+                                )
+                            })
+                        }
+                        <section className='section_center'>
+                            <Logistic_map style={{ position: 'absolute' }} />
+                            <Logistic_cluster className='logistic_cluster' />
+                        </section>
+                    </main> */}

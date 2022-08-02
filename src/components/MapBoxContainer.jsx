@@ -65,3 +65,5 @@ const MapBoxContainer = () => {
 }
 
 export default MapBoxContainer;
+
+// 1080px
