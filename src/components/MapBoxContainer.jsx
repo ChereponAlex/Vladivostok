@@ -10,10 +10,11 @@ const MapBoxContainer = () => {
     return (
         <div className='map_box-container'>
 
-            <div className='descrition_page'>
-                <button className="text3d-wrap-3">
+            <div className='description_page'>
+                Карта агломерации Владивостока
+                {/* <button className="text3d-wrap-3">
                     <span className="text3d-3">Карта агломерации Владивостока</span>
-                </button>
+                </button> */}
             </div>
 
             {

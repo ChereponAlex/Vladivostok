@@ -68,7 +68,7 @@ const dataSource =
     [
         {
             id: 1,
-            name: "Логистически-Производственный пояс",
+            name: "Логистически-производственный пояс",
             Cluster: SvgContainer,
             Marker: Marker_cluster_1,
             Dot: Dot_1,
@@ -76,7 +76,7 @@ const dataSource =
         },
         {
             id: 2,
-            name: "Рекреационно-Оздоровительный кластер",
+            name: "Рекреационно-оздоровительный кластер",
             Cluster: SvgContainer,
             Marker: Marker_cluster_2,
             Dot: Dot_2,
@@ -84,7 +84,7 @@ const dataSource =
         },
         {
             id: 3,
-            name: "Рекреационно-Оздоровительный кластер",
+            name: "Рекреационно-оздоровительный кластер",
             Cluster: SvgContainer,
             Marker: Marker_cluster_3,
             Dot: Dot_3,
@@ -100,7 +100,7 @@ const dataSource =
         },
         {
             id: 5,
-            name: "Спутник",
+            name: "Логистически-производственный пояс",
             Cluster: SvgContainer,
             Marker: Marker_cluster_5,
             Dot: Dot_5,

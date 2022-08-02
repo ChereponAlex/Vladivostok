@@ -64,8 +64,8 @@ const ItemCluster = () => {
                             <Logistic_4 className='logistic_card' />
                         </section>
                         <section className='section_center'>
-                            {/* <Logistic_map style={{ position: 'absolute' }} /> */}
-                            <Logistic_cluster className='logistic_cluster' />
+                            <Logistic_map style={{ position: 'absolute' }} />
+                            {/* <Logistic_cluster className='logistic_cluster' /> */}
                         </section>
                         <section className='section_right'>
                             <Logistic_5 className='logistic_card' />
