@@ -3,18 +3,18 @@ import useHistory from 'react-router-dom';
 import dataSource from '../helper/dataSource';
 import { Link } from 'react-router-dom';
 import encodeURI from '../utils/encodeURI';
+import { ReactComponent as Background } from '../images/background_mainpage.svg';
 
 
 const MapBoxContainer = () => {
 
     return (
-        <div className='map_box-container'>
+        <div className='map_box-container'>           
+
 
             <div className='description_page'>
                 Карта агломерации Владивостока
-                {/* <button className="text3d-wrap-3">
-                    <span className="text3d-3">Карта агломерации Владивостока</span>
-                </button> */}
+     
             </div>
 
             {
@@ -25,15 +25,7 @@ const MapBoxContainer = () => {
                         <Marker className={`marker_cluster_${id}`} />
                         <Dot className={`dot_${id}`} />
                         <div className={`cluster_name_text cluster_name_position_${id}`}>{name}</div>
-                    </div>
-
-                    // return <Link to={{
-                    //     pathname: `/cluster/${id}`,
-                    //     search: `?name=${encodeURI(name)}`
-                    // }} key={id}>
-                    //     {name}
-
-                    // </Link>
+                    </div>  
                 }
 
                 )
@@ -67,3 +59,11 @@ const MapBoxContainer = () => {
 export default MapBoxContainer;
 
 // 1080px
+
+                  // return <Link to={{
+                    //     pathname: `/cluster/${id}`,
+                    //     search: `?name=${encodeURI(name)}`
+                    // }} key={id}>
+                    //     {name}
+
+                    // </Link>

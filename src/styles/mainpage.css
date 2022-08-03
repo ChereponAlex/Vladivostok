@@ -5,6 +5,7 @@
     font-display: swap;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Graphik LC Web';
     src: url('../fonts/Graphik-Bold-Web.ttf');
@@ -12,6 +13,7 @@
     font-display: swap;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Graphik LC Web';
     src: url('../fonts/Graphik-Medium-Web.ttf');
@@ -19,29 +21,71 @@
     font-display: swap;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Graphik LC Web';
     src: url('../fonts/Graphik-Regular-Web.ttf');
-    font-weight: 400;    
+    font-weight: 400;
     font-display: swap;
     font-style: normal;
 }
 
-
-
 .app-container {
-    width: 100%;
-    /* height: 100vh; */
+    width: 100vw;
+    height: 100vh;
 }
+
+
+.background {
+    background: url('/src/images/background.png') no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.background_1 {
+    /* background: url('/src/images/background_mainpage.svg') no-repeat; */
+    background-size: 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+#path_1 {
+    cursor: pointer;
+}
+
+#path_2 {
+    cursor: pointer;
+}
+
+#path_3 {
+    cursor: pointer;
+}
+#path_4{
+    cursor: pointer;
+}
+
+
+#path_5 {
+    cursor: pointer;
+}
+
+
+
 
 .map_box-container {
     position: fixed;
-    background-image: url(/src/images/background.png);
-    background-position: center center;
+    background: url('/src/images/background.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    width: 100%;
+    background-position: center center;
+    width: 100vw;
     height: 100vh;
-    
 }
 
 a {
@@ -55,20 +99,25 @@ a {
 
 #cluster_1 {
     position: fixed;
-    right: 372px;
-    top: 5px;
+    /* right: 372px;
+    top: 5px; */
     pointer-events: none;
+    right: 10%;
+    top: -11%;
+    width: 79.781vw;
+    height: 64.352vw;
+
 }
 
-#path_1 {
-    /* fill: rgba(255, 92, 0, 0); */
+/* #path_1 {
+   
     fill: rgba(255, 92, 0, 0.45);
     pointer-events: all !important;
 }
 
 #path_1:hover {
-    cursor: pointer;    
-}
+    cursor: pointer;
+} */
 
 .marker_cluster_1 {
     position: fixed;
@@ -81,7 +130,8 @@ a {
     right: 640px;
     bottom: 633px;
 }
-.cluster_name_position_1{
+
+.cluster_name_position_1 {
     position: fixed;
     right: 660px;
     bottom: 545px;
@@ -105,14 +155,15 @@ a {
     left: 850px;
     top: 215px;
 }
-.cluster_name_position_2{
+
+.cluster_name_position_2 {
     position: fixed;
     left: 840px;
     top: 310px;
 }
 
-#path_2 {
-    /* fill: rgba(255, 92, 0, 0); */
+/* #path_2 {
+    
     fill: rgba(250, 0, 195, 0.45);
     pointer-events: all !important;
 }
@@ -120,7 +171,7 @@ a {
 #path_2:hover {
     cursor: pointer;
 
-}
+} */
 
 #cluster_3 {
     position: fixed;
@@ -135,7 +186,7 @@ a {
     top: 420px;
 }
 
-.cluster_name_position_3{
+.cluster_name_position_3 {
     position: fixed;
     left: 715px;
     top: 455px;
@@ -147,15 +198,15 @@ a {
     top: 409px;
 }
 
-#path_3 {
-    /* fill: rgba(255, 92, 0, 0); */
+/* #path_3 {
+    
     fill: rgba(0, 250, 70, 0.45);
     pointer-events: all !important;
 }
 
 #path_3:hover {
     cursor: pointer;
-}
+} */
 
 
 #cluster_4 {
@@ -171,7 +222,7 @@ a {
     top: 625px;
 }
 
-.cluster_name_position_4{
+.cluster_name_position_4 {
     position: fixed;
     left: 650px;
     bottom: 350px;
@@ -183,15 +234,15 @@ a {
     top: 614px;
 }
 
-#path_4 {
-    /* fill: rgba(255, 92, 0, 0); */
+/* #path_4 {
+    
     fill: rgba(51, 0, 253, 0.45);
     pointer-events: all !important;
 }
 
 #path_4:hover {
     cursor: pointer;
-}
+} */
 
 #cluster_5 {
     position: fixed;
@@ -200,7 +251,7 @@ a {
     pointer-events: none;
 }
 
-.cluster_name_position_5{
+.cluster_name_position_5 {
     position: fixed;
     left: 500px;
     bottom: 250px;
@@ -218,29 +269,30 @@ a {
     bottom: 323px;
 }
 
-#path_5 {
-    /* fill: rgba(255, 92, 0, 0); */
-    fill: rgba(248, 253, 0, 0.45);   
+/* #path_5 {
+    
+    fill: rgba(248, 253, 0, 0.45);
     pointer-events: all !important;
 }
 
 #path_5:hover {
     cursor: pointer;
-}
+} */
 
 .description_page {
     font-family: 'Graphik LC Web';
     font-style: normal;
     font-weight: 700;
-    font-size: 42px;
-    line-height: 42px;
+    font-size: 46px;
+    line-height: 50px;
     position: absolute;
     right: 108px;
     top: 53px;
     /* opacity: 0; */
     color: #FFFFFF;
-    width: 473px;
-    height: 100px;
+    width: 2.875rem;
+
+
 }
 
 /* .text3d-wrap-3 {
@@ -327,10 +379,12 @@ a {
     margin-bottom: 6px;
 
 }
+
 .descriprion_clusters {
     margin-bottom: 12px;
 }
-.name_of_cluster_list{
+
+.name_of_cluster_list {
     font-family: 'Graphik LC Web';
     font-style: normal;
     font-weight: 400;
