@@ -15,7 +15,6 @@ const MainPage = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-      console.log(1)
       const changeRoute = (routeName) => {
         navigate(`/cluster/${routeName}`)
         console.log('changeRoute', routeName)
@@ -51,10 +50,10 @@ const MainPage = () => {
   }
 
   return (
-    <>
+    <div className="main-page-container">
       <div className="background" />
       <Background className="background_1" onClick={SvgContainer(1)} />
-    </>
+    </div>
   )
 }
 export default MainPage;
