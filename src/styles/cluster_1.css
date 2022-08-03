@@ -1,4 +1,4 @@
-/* @font-face {
+@font-face {
     font-family: 'Graphik LC Web';
     src: url('../fonts/Graphik-Black-Web.ttf');
 
@@ -6,6 +6,7 @@
     font-display: swap;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Graphik LC Web';
     src: url('../fonts/Graphik-Bold-Web.ttf');
@@ -13,20 +14,22 @@
     font-display: swap;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Graphik LC Web';
     src: url('../fonts/Graphik-Medium-Web.ttf');
-    font-weight: 500;
+    font-weight: 400;
     font-display: swap;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Graphik LC Web';
     src: url('../fonts/Graphik-Regular-Web.ttf');
-    font-weight: 400;    
+    font-weight: 400;
     font-display: swap;
     font-style: normal;
-} */
+}
 
 .cell-wrapper {
     border-radius: 15px;
@@ -34,16 +37,27 @@
     background-size: cover;
     display: flex;
     position: relative;
-    height: 100%;
+    height: 200px;
+    /* 12.5rem */
     width: 287px;
+    /* 17.9rem */
     max-height: 287px;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 
 .cell-wrapper:not(:first-child):not(:last-child) {
-     margin: 6px 12px;
- }
+    /* margin: 6px 12px; */
+}
 
 .cell-number {
+    font-family: 'Graphik LC Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    color: #FFFFFF;
     position: absolute;
     top: 5px;
     left: 5px;
@@ -58,12 +72,22 @@
 }
 
 .cell-title {
-    position: absolute;
-    border-radius: 16px;
-    bottom: 5px;
-    left: 5px;
-    background: gray;
-    padding: 4px 6px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 100px;
+    font-family: 'Graphik LC Web';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #010F1F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;    
+    bottom: 10px;
+    left: 10px;    
+    padding: 5px 15px;
+    
 }
 
 .background_cluster_page {
@@ -81,13 +105,16 @@
     height: 100%;
     z-index: 2;
 }
-#cluster_1_marker_1{
+
+#cluster_1_marker_1 {
     cursor: pointer;
 }
-#cluster_1_marker_2{
+
+#cluster_1_marker_2 {
     cursor: pointer;
 }
-#cluster_1_marker_3{
+
+#cluster_1_marker_3 {
     cursor: pointer;
 }
 
@@ -175,15 +202,17 @@
     height: 100%;
     z-index: 20;
     border-radius: 15px;
-    /* border: 1px solid white; */
+
 }
+
 .centered-map {
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: 21;
 }
-#project_1{
+
+#project_1 {
     cursor: pointer;
 }
 
