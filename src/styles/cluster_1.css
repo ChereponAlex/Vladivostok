@@ -37,18 +37,18 @@
     background-size: cover;
     display: flex;
     position: relative;
-    height: 200px;
+    height: 100%;
     /* 12.5rem */
-    width: 287px;
+    width: 13vw;
     /* 17.9rem */
-    max-height: 287px;
     margin-left: 20px;
     margin-right: 20px;
-
+    cursor: pointer;
 }
 
-.cell-wrapper:not(:first-child):not(:last-child) {
+.cell-wrapper:not(:last-child) {
     /* margin: 6px 12px; */
+    margin-bottom: 20px;
 }
 
 .cell-number {
@@ -59,8 +59,8 @@
     line-height: 22px;
     color: #FFFFFF;
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: 10px;
+    left: 10px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -83,11 +83,11 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    position: absolute;    
+    position: absolute;
     bottom: 10px;
-    left: 10px;    
+    left: 10px;
     padding: 5px 15px;
-    
+
 }
 
 .background_cluster_page {
@@ -126,10 +126,10 @@
 }
 
 .header_container_page_cluster_1 {
-
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 33px;
@@ -142,20 +142,21 @@
     align-items: center;
     cursor: pointer;
     width: 15vw;
+    position: absolute;
+    left: 20px;
 }
 
 .header_btn_back_description {
-    margin-left: 15px;
     font-family: 'Graphik LC Web';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 18px;
-    color: #00589B;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 12px;
+    color: #3C5168;
 }
 
 .header_cluster_1_name {
-    width: 754px;
     height: 38px;
     font-family: 'Graphik LC Web';
     font-style: normal;
@@ -163,7 +164,6 @@
     font-size: 38px;
     line-height: 38px;
     color: #FFFFFF;
-    padding-left: 340px;
 }
 
 .main_container {
@@ -176,7 +176,7 @@
     margin-top: 39px;
     /* margin-left: 20px; */
     margin-right: 20px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .section_left {
@@ -226,7 +226,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     /* border: 1px solid white; */
 }
 
