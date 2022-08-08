@@ -68,7 +68,7 @@ const ItemCluster = () => {
                             </div>
                             <div className='header_cluster_1_name'>Логистически-производственный пояс</div>
                         </header> */}
-                        <header className='header_logistic_project_4'>
+                        {/* <header className='header_logistic_project_4'>
                             <div className='header_btn_back_container' >
                                 <div className='header_btn_back_cluster' onClick={() => navigate('/')}>
                                     <Back_btn className='header_icons' />
@@ -77,16 +77,26 @@ const ItemCluster = () => {
                                 <div className='header_cluster_1_name'>Логистически-производственный пояс</div>
 
                             </div>
+                        </header> */}
+                        <header className='header_cluster_1'>
+                            <div className='header_cluster_logistic_btn_container'  onClick={() => navigate('/')}>
+                                <Back_btn className='header_cluster_logistic_btn_back' />
+                                <div className='header_cluster_logistic_description_btn'>На главную</div>
+                            </div>
+
+                            <div className='header_description_cluster_logistic'>Логистически-производственный пояс</div>
+
+
                         </header>
                         <main className='main_container'>
 
                             <section className='section' >
-                                {/* {dataLogisticProject.map((item) => {
+                                {dataLogisticProject.map((item) => {
 
                                     if (item.id <= 4) {
                                         return <ClusterCell key={item.id} clusterID={item.id} {...item} />
                                     } else return null
-                                })} */}
+                                })}
                             </section>
 
                             <section className='section_center'>
@@ -94,11 +104,11 @@ const ItemCluster = () => {
                             </section>
 
                             <section className='section'>
-                                {/* {dataLogisticProject.map((item) => {
+                                {dataLogisticProject.map((item) => {
                                     if (item.id > 4) {
                                         return <ClusterCell key={item.id} clusterID={item.id} {...item} />
                                     } else return null
-                                })} */}
+                                })}
                             </section>
 
                         </main>

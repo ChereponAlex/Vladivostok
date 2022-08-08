@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import encodeURI from '../utils/encodeURI';
 import MapBoxContainer from '../components/MapBoxContainer';
 import { ReactComponent as Background } from '../images/background_mainpage.svg';
+// import { ReactComponent as Background } from '../images/background_mainpage_finish.svg';
 
 
 const MainPage = () => {
