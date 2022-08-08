@@ -37,7 +37,7 @@
     background-size: cover;
     display: flex;
     position: relative;
-    height: 200px;
+    height: 20vh;
     /* 12.5rem */
     width: 14.95vw;
     /* 17.9rem */
@@ -142,7 +142,7 @@
     flex-direction: row;
     align-items: center;
     cursor: pointer;
-    width: 15vw;
+    /* width: 15vw; */
     /* height: 2.29vh; */
     position: absolute;
     left: 20px;
