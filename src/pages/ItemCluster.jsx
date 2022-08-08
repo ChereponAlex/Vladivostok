@@ -12,6 +12,8 @@ import { ReactComponent as Background_cluster_1 } from '../images/background_clu
 import { ReactComponent as Left_column_project } from '../images/logistic_left_column_project.svg';
 import { ReactComponent as Right_column_project } from '../images/logistic_right_column_project.svg';
 import { ReactComponent as Map } from '../images/logistic_cluster_1_map.svg';
+// import { ReactComponent as Map } from '../images/Vector.svg';
+
 import dataLogisticProject from '../helper/dataLogisticProject';
 
 // функция под навигацию маркеров на карте
@@ -61,33 +63,14 @@ const ItemCluster = () => {
             return (
                 <>
                     <div className="background_cluster_page" >
-                        {/* <header className='header_container_page_cluster_1'>
-                            <div className='header_btn_back' onClick={() => navigate('/')}>
-                                <Back_btn/>
-                                <div className='header_btn_back_description'>На главную</div>
-                            </div>
-                            <div className='header_cluster_1_name'>Логистически-производственный пояс</div>
-                        </header> */}
-                        {/* <header className='header_logistic_project_4'>
-                            <div className='header_btn_back_container' >
-                                <div className='header_btn_back_cluster' onClick={() => navigate('/')}>
-                                    <Back_btn className='header_icons' />
-                                    <div className='header_btn_back_description'>На главную</div>
-                                </div>
-                                <div className='header_cluster_1_name'>Логистически-производственный пояс</div>
-
-                            </div>
-                        </header> */}
                         <header className='header_cluster_1'>
-                            <div className='header_cluster_logistic_btn_container'  onClick={() => navigate('/')}>
+                            <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
                                 <Back_btn className='header_cluster_logistic_btn_back' />
                                 <div className='header_cluster_logistic_description_btn'>На главную</div>
                             </div>
-
                             <div className='header_description_cluster_logistic'>Логистически-производственный пояс</div>
-
-
                         </header>
+
                         <main className='main_container'>
 
                             <section className='section' >
@@ -100,6 +83,14 @@ const ItemCluster = () => {
                             </section>
 
                             <section className='section_center'>
+                                {dataLogisticProject.map(marker => {
+                                    return (
+                                        <div key={marker.id} className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/${marker.id}/project/${marker.id}`)}>
+                                            <div className={`number_marker`}>{marker.id}</div>
+                                            {/* <div className='description_marker'></div> */}
+                                        </div>
+                                    )
+                                })}
                                 <Map className='centered-map' />
                             </section>
 
