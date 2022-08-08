@@ -12,13 +12,10 @@
 
 .header_logistic_project_4 {
     width: 100%;
-    /* height: 10vh;     */
-
 }
 
 .main_logistic_project_4 {
-    /* width: 100%; */
-    /* height: 90vh; */
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -75,10 +72,6 @@
 
 }
 
-/* .block_1_right_section{
-    margin-bottom: 24px;
-} */
-
 .descriprion_card_project {
     font-family: 'Graphik LC Web';
     font-style: normal;
@@ -103,8 +96,7 @@
     line-height: 1.25vw;
     color: #FFFFFF;
     order: 1;
-    flex-grow: 0;
-    /* margin-bottom: 24px; */
+    flex-grow: 0;    
 }
 
 .header_btn_back_container {

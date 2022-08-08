@@ -61,35 +61,44 @@ const ItemCluster = () => {
             return (
                 <>
                     <div className="background_cluster_page" >
-                        <header className='header_container_page_cluster_1'>
+                        {/* <header className='header_container_page_cluster_1'>
                             <div className='header_btn_back' onClick={() => navigate('/')}>
-                                <Back_btn />
+                                <Back_btn/>
                                 <div className='header_btn_back_description'>На главную</div>
                             </div>
                             <div className='header_cluster_1_name'>Логистически-производственный пояс</div>
+                        </header> */}
+                        <header className='header_logistic_project_4'>
+                            <div className='header_btn_back_container' >
+                                <div className='header_btn_back_cluster' onClick={() => navigate('/')}>
+                                    <Back_btn className='header_icons' />
+                                    <div className='header_btn_back_description'>На главную</div>
+                                </div>
+                                <div className='header_cluster_1_name'>Логистически-производственный пояс</div>
+
+                            </div>
                         </header>
                         <main className='main_container'>
-                            <section className='section_right' >
-                                {dataLogisticProject.map((item) => {
+
+                            <section className='section' >
+                                {/* {dataLogisticProject.map((item) => {
 
                                     if (item.id <= 4) {
                                         return <ClusterCell key={item.id} clusterID={item.id} {...item} />
                                     } else return null
-                                })}
-                                {/*<Left_column_project />*/}
+                                })} */}
                             </section>
 
                             <section className='section_center'>
                                 <Map className='centered-map' />
                             </section>
 
-                            <section className='section_right' >
-                                {dataLogisticProject.map((item) => {
+                            <section className='section'>
+                                {/* {dataLogisticProject.map((item) => {
                                     if (item.id > 4) {
                                         return <ClusterCell key={item.id} clusterID={item.id} {...item} />
                                     } else return null
-                                })}
-                                {/*<Right_column_project />*/}
+                                })} */}
                             </section>
 
                         </main>
@@ -122,3 +131,29 @@ const ItemCluster = () => {
 }
 export default ItemCluster;
 
+
+{/* <main className='main_container'>
+<section className='section_right' >
+    {dataLogisticProject.map((item) => {
+
+        if (item.id <= 4) {
+            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
+        } else return null
+    })}
+    
+</section>
+
+<section className='section_center'>
+    <Map className='centered-map' />
+</section>
+
+<section className='section_right'>
+    {dataLogisticProject.map((item) => {
+        if (item.id > 4) {
+            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
+        } else return null
+    })}
+   
+</section>
+
+</main> */}
