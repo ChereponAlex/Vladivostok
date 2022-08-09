@@ -12,8 +12,7 @@ import { ReactComponent as Background_cluster_1 } from '../images/background_clu
 import { ReactComponent as Left_column_project } from '../images/logistic_left_column_project.svg';
 import { ReactComponent as Right_column_project } from '../images/logistic_right_column_project.svg';
 import { ReactComponent as Map } from '../images/logistic_cluster_1_map.svg';
-// import { ReactComponent as Map } from '../images/Vector.svg';
-
+import { ReactComponent as Map4 } from '../images/technology_cluster_4_map.svg';
 import dataLogisticProject from '../helper/dataLogisticProject';
 
 // функция под навигацию маркеров на карте
@@ -54,107 +53,161 @@ const ClusterCell = ({ clusterID, title, imageSrc }) => {
     )
 }
 const ItemCluster = () => {
-    const { id } = useParams();
+    const { id } = useParams();    
     // const { search } = useLocation();
     const navigate = useNavigate();
 
-    switch (id) {
-        case '1':
-            return (
-                <>
-                    <div className="background_cluster_page" >
-                        <header className='header_cluster_1'>
-                            <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
-                                <Back_btn className='header_cluster_logistic_btn_back' />
-                                <div className='header_cluster_logistic_description_btn'>На главную</div>
-                            </div>
-                            <div className='header_description_cluster_logistic'>Логистически-производственный пояс</div>
-                        </header>
+    return (
+        <>
+            {
+                id == '1' ?
+                    <>
+                        <div className="background_cluster_page" >
+                            <header className='header_cluster_1'>
+                                <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
+                                    <Back_btn className='header_cluster_logistic_btn_back' />
+                                    <div className='header_cluster_logistic_description_btn'>На главную</div>
+                                </div>
+                                <div className='header_description_cluster_logistic'>Логистически-производственный пояс</div>
+                            </header>
 
-                        <main className='main_container'>
+                            <main className='main_container'>
 
-                            <section className='section' >
-                                {dataLogisticProject.map((item) => {
+                                <section className='section' >
+                                    {dataLogisticProject.map((item) => {
 
-                                    if (item.id <= 4) {
-                                        return <ClusterCell key={item.id} clusterID={item.id} {...item} />
-                                    } else return null
-                                })}
-                            </section>
+                                        if (item.id <= 4) {
+                                            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
+                                        } else return null
+                                    })}
+                                </section>
 
-                            <section className='section_center'>
-                                {dataLogisticProject.map(marker => {
-                                    return (
-                                        <div key={marker.id} className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/${marker.id}/project/${marker.id}`)}>
-                                            <div className={`number_marker`}>{marker.id}</div>
-                                            {/* <div className='description_marker'></div> */}
-                                        </div>
-                                    )
-                                })}
-                                <Map className='centered-map' />
-                            </section>
+                                <section className='section_center'>
+                                    {dataLogisticProject.map(marker => {
+                                        return (
+                                            <div key={marker.id}>
+                                                <div className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/${marker.id}/project/${marker.id}`)}>
+                                                    <div className={`number_marker`}>{marker.id}</div>
+                                                </div>
+                                                <div className={`description_marker position_description_marker_${marker.id}`} onClick={() => navigate(`/cluster/${marker.id}/project/${marker.id}`)}>{marker.title}</div>
+                                            </div>
 
-                            <section className='section'>
-                                {dataLogisticProject.map((item) => {
-                                    if (item.id > 4) {
-                                        return <ClusterCell key={item.id} clusterID={item.id} {...item} />
-                                    } else return null
-                                })}
-                            </section>
+                                        )
+                                    })}
+                                    <Map className='centered-map' />
+                                </section>
 
-                        </main>
-                    </div>
-                </>
-            )
-            break;
+                                <section className='section'>
+                                    {dataLogisticProject.map((item) => {
+                                        if (item.id > 4) {
+                                            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
+                                        } else return null
+                                    })}
+                                </section>
+                            </main>
+                        </div>
+                    </>
+                    : null
+            }
+              {
+                id == '4' ?
+                    <>
+                        <div className="background_cluster_page" >
+                            <header className='header_cluster_1'>
+                                <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
+                                    <Back_btn className='header_cluster_logistic_btn_back' />
+                                    <div className='header_cluster_logistic_description_btn'>На главную</div>
+                                </div>
+                                <div className='header_description_cluster_logistic' style={{paddingLeft: '7.5vw'}}>Научно-образовательный и технологический кластер</div>
+                            </header>
 
-        case '2':
-            <div>страница №2</div>
-            break;
-        case '3':
-            <div>страница №3</div>
-            break;
-        case '4':
-            <div>страница №4</div>
-            break;
-        case '5':
-            <div>страница №5</div>
-            break;
-        default:
-            return (
-                <>
-                    такой страницы не найдено
-                </>
-            )
+                            <main className='main_container'>
 
-    }
+                                <section className='section' >
+                                    {dataLogisticProject.map((item) => {
+
+                                        if (item.id <= 4) {
+                                            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
+                                        } else return null
+                                    })}
+                                </section>
+
+                                <section className='section_center_2'>
+                                    {/* {dataLogisticProject.map(marker => {
+                                        return (
+                                            <div key={marker.id}>
+                                                <div className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/${marker.id}/project/${marker.id}`)}>
+                                                    <div className={`number_marker`}>{marker.id}</div>
+                                                </div>
+                                                <div className={`description_marker position_description_marker_${marker.id}`} onClick={() => navigate(`/cluster/${marker.id}/project/${marker.id}`)}>{marker.title}</div>
+                                            </div>
+
+                                        )
+                                    })} */}
+                                    <Map4 className='centered-map' />
+                                </section>
+
+                                <section className='section'>
+                                    {dataLogisticProject.map((item) => {
+                                        if (item.id > 4) {
+                                            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
+                                        } else return null
+                                    })}
+                                </section>
+
+                            </main>
+                        </div>
+                    </>
+                    : null
+            }
+        </>
+
+
+    )
+
+
+
+
+    // <>
+    //     <div className="background_cluster_page" >
+    //         <header className='header_cluster_1'>
+    //             <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
+    //                 <Back_btn className='header_cluster_logistic_btn_back' />
+    //                 <div className='header_cluster_logistic_description_btn'>На главную</div>
+    //             </div>
+    //             <div className='header_description_cluster_logistic'>Логистически-производственный пояс</div>
+    //         </header>
+
+    //         <main className='main_container'>
+
+    //             <section className='section' >
+    //                 {dataLogisticProject.map((item) => {
+
+    //                     if (item.id <= 4) {
+    //                         return <ClusterCell key={item.id} clusterID={item.id} {...item} />
+    //                     } else return null
+    //                 })}
+    //             </section>
+
+    //             <section className='section_center'>
+    //                 <Map className='centered-map' />
+    //             </section>
+
+    //             <section className='section'>
+    //                 {dataLogisticProject.map((item) => {
+    //                     if (item.id > 4) {
+    //                         return <ClusterCell key={item.id} clusterID={item.id} {...item} />
+    //                     } else return null
+    //                 })}
+    //             </section>
+
+    //         </main>
+    //     </div>
+    // </>
+
 
 }
+
+
 export default ItemCluster;
 
-
-{/* <main className='main_container'>
-<section className='section_right' >
-    {dataLogisticProject.map((item) => {
-
-        if (item.id <= 4) {
-            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
-        } else return null
-    })}
-    
-</section>
-
-<section className='section_center'>
-    <Map className='centered-map' />
-</section>
-
-<section className='section_right'>
-    {dataLogisticProject.map((item) => {
-        if (item.id > 4) {
-            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
-        } else return null
-    })}
-   
-</section>
-
-</main> */}

@@ -260,7 +260,26 @@
     height: 2.29vw;
 }
 
-.number_marker{
+.description_marker {
+    cursor: pointer;
+    font-family: 'Graphik LC Web';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 0.83vw;  
+    color: #010F1F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid #FFFFFF; */
+    border-radius: 100px;
+    z-index: 23;
+    padding: 0.26vw 0.78vw;
+
+}
+
+.number_marker {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -272,43 +291,104 @@
     /* line-height: 1.15vw;  */
     color: #FFFFFF;
 }
-.position_marker_1{
+
+.position_marker_1 {
     position: absolute;
     right: 19%;
     bottom: 9%;
 }
-.position_marker_2{
+.position_description_marker_1{
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+}
+
+.position_marker_2 {
     position: absolute;
     right: 26%;
     bottom: 12%;
 }
-.position_marker_3{
+.position_description_marker_2{
+    position: absolute;
+    right: 30%;
+    bottom: 10%;
+}
+
+.position_marker_3 {
     position: absolute;
     right: 24%;
     bottom: 23%;
 }
-.position_marker_4{
+
+.position_description_marker_3{
+    position: absolute;
+    right: 28%;
+    bottom: 21%;
+}
+
+.position_marker_4 {
     position: absolute;
     top: 15%;
     left: 49%;
 }
-.position_marker_5{
+
+.position_description_marker_4{
+    position: absolute;
+    top: 20%;
+    left: 53%;
+}
+
+.position_marker_5 {
     position: absolute;
     top: 23%;
     left: 39%;
 }
-.position_marker_6{
+.position_description_marker_5{
+    position: absolute;
+    top: 30%;
+    left: 39%;
+}
+
+.position_marker_6 {
     position: absolute;
     top: 21%;
     left: 27%;
 }
-.position_marker_7{
+
+.position_description_marker_6{
+    position: absolute;
+    top: 17%;
+    left: 25%;
+}
+
+.position_marker_7 {
     position: absolute;
     top: 28%;
     left: 21%;
 }
-.position_marker_8{
+.position_description_marker_7{
+    position: absolute;
+    top: 35%;
+    left: 17%;
+}
+
+.position_marker_8 {
     position: absolute;
     bottom: 18%;
     left: 12%;
+}
+.position_description_marker_8{
+    position: absolute;
+    bottom: 25%;
+    left: 3%;
+}
+
+/* ===========================Cluster_4============= */
+
+.section_center_2 {
+    position: relative;
+    background: url('../images/background_cluster_4.jpg') no-repeat center;
+    background-size: 100% 100%;
+    border-radius: 15px;
+    /* background-color: green; */
 }
