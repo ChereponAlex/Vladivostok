@@ -480,8 +480,10 @@ a {
     /* border: 1px solid #FFFFFF; */
     border-radius: 100px;
     z-index: 23;
-    padding: 0.26vw 0.78vw;
-    width: 16.30vw;
+    padding: 0.52vw 1.04vw;
+    width: 12.50vw;
+    /* max-width: 251px; */
+    /* height: 56px; */
 
 }
 
@@ -496,6 +498,7 @@ a {
     order: 0;
     flex-grow: 0;
     z-index: 3;
+    /* width: 11.41vw; */
 }
 
 .transport_marker_block {
@@ -568,7 +571,7 @@ a {
 
 }
 
-.container_transport_list{
+.container_transport_list {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -593,8 +596,9 @@ a {
     z-index: 5;
     left: 27.7%;
     top: 31.3%;
-    
+
 }
+
 .transport_point_2 {
     position: fixed;
 
@@ -604,11 +608,12 @@ a {
     z-index: 2;
     width: 0.52vw;
     height: 0.52vw;
-    z-index: 5;  
+    z-index: 5;
     left: 24.1%;
     top: 43.5%;
 
 }
+
 .transport_point_3 {
     position: fixed;
 

@@ -12,29 +12,36 @@ import dataTransport from '../helper/dataTransport';
 const MainPage = () => {
 
   // функция под навигацию кластеров
-  const SvgContainer = (id) => {
+  // const SvgContainer = (id) => {
 
-    const parseID = id[id.length - 1]
-    console.log(parseID)
+  //   const parseID = id[id.length - 1]
+  //   console.log(parseID)
 
-    const navigate = useNavigate();
+  //   const navigate = useNavigate();
 
-    useEffect(() => {
-      const changeRoute = (routeName) => {
-        navigate(`/cluster/${routeName}`)
-        // console.log('changeRoute', routeName)
-      }
-      console.log(parseID)
-      const path = document.getElementById(`path_${id}`)
-      !!path && path.addEventListener('click', () => {
-        changeRoute(id)
-      });
+  //   useEffect(() => {
+  //     const changeRoute = (routeName) => {
+  //       navigate(`/cluster/${routeName}`)
+  //       // console.log('changeRoute', routeName)
+  //     }
+  //     console.log(parseID)
+  //     const path = document.getElementById(`path_${id}`)
+  //     !!path && path.addEventListener('click', () => {
+  //       changeRoute(id)
+  //     });
 
-      return () => {
-        !!path && path.removeEventListener('click', changeRoute)
-      }
+  //     return () => {
+  //       !!path && path.removeEventListener('click', changeRoute)
+  //     }
 
-    }, []);
+  //   }, []);
+  // }
+
+  const navigate = useNavigate();
+  const changeRoute = (id) => {
+    const parseID = id[id.length -1]
+    if(parseID) navigate(`/cluster/${parseID}`)
+    
   }
 
   return (
@@ -115,7 +122,7 @@ const MainPage = () => {
         </div>
 
       </div>
-      <Background className="background_1" onClick={SvgContainer(1)} />
+      <Background className="background_1" onClick={(e) => changeRoute(e.target.id)} />
     </div>
   )
 }
