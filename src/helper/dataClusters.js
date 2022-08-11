@@ -1,13 +1,14 @@
 const dataClusters = [
     {
         id: 1,
-        title: 'Рекреационно-оздовровительный кластер',
-        color: 'linear-gradient(270.81deg, rgba(203, 3, 159, 0.35) 3.27%, #C40098 99.64%)'
+        title: 'Зеленый каркас',
+        color: 'linear-gradient(91.74deg, #05B627 0.62%, rgba(17, 188, 50, 0.13) 100%)'
     },
     {
         id: 2,
         title: 'Культурно-исторический кластер',
-        color: 'linear-gradient(91.74deg, #05B627 0.62%, rgba(17, 188, 50, 0.13) 100%)'
+        color: 'linear-gradient(270.81deg, rgba(203, 3, 159, 0.35) 3.27%, #C40098 99.64%)'
+        
     },
     {
         id: 3,

@@ -1,18 +1,18 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import logistic_project_4_page from '../images/logistic_project_4_page.svg';
-import { ReactComponent as Back_btn } from '../images/backButton.svg';
-import { ReactComponent as Back_home } from '../images/back_home.svg';
-import background from '../images/logistic_project_4_page.svg';
+import logistic_project_4_page from '../../images/logistic_project_4_page.svg';
+import { ReactComponent as Back_btn } from '../../images/backButton.svg';
+import { ReactComponent as Back_home } from '../../images/back_home.svg';
+import background from '../../images/logistic_project_4_page.svg';
 // import button_back from '../images/button_back.jpg'
 
 
 
 const ItemLogisticProject = () => {
-    const { id } = useParams();
+    const { projectID } = useParams();
     const navigate = useNavigate();
 
-    switch (id) {
+    switch (projectID) {
         case '1':
             return 'ТОР Большой камень'
             break;
