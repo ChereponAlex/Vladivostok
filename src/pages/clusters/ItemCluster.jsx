@@ -151,17 +151,17 @@ const ItemCluster = () => {
                                         background: `url(${background_cluster_2}) no-repeat center`,
                                         backgroundSize: 'cover'
                                     }}>
-                                    {/* {dataLogisticProject.map(marker => {
+                                    {dataGreenFrameProject.map(marker => {
                                         return (
                                             <div key={marker.id}>
-                                                <div className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/${marker.id}/project/${marker.id}`)}>
+                                                <div className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/2/project/${marker.id}`)}>
                                                     <div className={`number_marker`}>{marker.id}</div>
                                                 </div>
-                                                <div className={`description_marker position_description_marker_${marker.id}`} onClick={() => navigate(`/cluster/${marker.id}/project/${marker.id}`)}>{marker.title}</div>
+                                                <div className={`description_marker position_description_marker_${marker.id}`} onClick={() => navigate(`/cluster/2/project/${marker.id}`)}>{marker.title}</div>
                                             </div>
 
                                         )
-                                    })} */}
+                                    })}
                                     <Map4 className='centered-map' />
                                 </section>
 
@@ -187,7 +187,7 @@ const ItemCluster = () => {
                                     <Back_btn className='header_cluster_logistic_btn_back' />
                                     <div className='header_cluster_logistic_description_btn'>На главную</div>
                                 </div>
-                                <div className='header_description_cluster_logistic' style={{ paddingLeft: '18.5vw' }}>Культурно-исторический кластер</div>
+                                <div className='header_description_cluster_logistic' style={{ paddingLeft: '3.5vw' }}>Центр креативной экономики(культурно-исторический центр)</div>
                             </header>
 
                             <main className='main_container'>
@@ -202,17 +202,17 @@ const ItemCluster = () => {
                                 </section>
 
                                 <section className='section_center_3'>
-                                    {/* {dataLogisticProject.map(marker => {
+                                    {dataHistoricalProject.map(marker => {
                                         return (
                                             <div key={marker.id}>
-                                                <div className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/${marker.id}/project/${marker.id}`)}>
+                                                <div className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/3/project/${marker.id}`)}>
                                                     <div className={`number_marker`}>{marker.id}</div>
                                                 </div>
-                                                <div className={`description_marker position_description_marker_${marker.id}`} onClick={() => navigate(`/cluster/${marker.id}/project/${marker.id}`)}>{marker.title}</div>
+                                                <div className={`description_marker position_description_marker_${marker.id}`} onClick={() => navigate(`/cluster/3/project/${marker.id}`)}>{marker.title}</div>
                                             </div>
 
                                         )
-                                    })} */}
+                                    })}
                                     <Map4 className='centered-map' />
                                 </section>
 
@@ -253,17 +253,17 @@ const ItemCluster = () => {
                                 </section>
 
                                 <section className='section_center_2'>
-                                    {/* {dataLogisticProject.map(marker => {
+                                    {dataTechnologyProject.map(marker => {
                                         return (
                                             <div key={marker.id}>
-                                                <div className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/${marker.id}/project/${marker.id}`)}>
+                                                <div className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/4/project/${marker.id}`)}>
                                                     <div className={`number_marker`}>{marker.id}</div>
                                                 </div>
-                                                <div className={`description_marker position_description_marker_${marker.id}`} onClick={() => navigate(`/cluster/${marker.id}/project/${marker.id}`)}>{marker.title}</div>
+                                                <div className={`description_marker position_description_marker_${marker.id}`} onClick={() => navigate(`/cluster/4/project/${marker.id}`)}>{marker.title}</div>
                                             </div>
 
                                         )
-                                    })} */}
+                                    })}
                                     <Map4 className='centered-map' />
                                 </section>
 
@@ -308,17 +308,17 @@ const ItemCluster = () => {
                                         background: `url(${background_cluster_5}) no-repeat center`,
                                         backgroundSize: 'cover'
                                     }}>
-                                    {/* {dataLogisticProject.map(marker => {
+                                    {dataTouristicProject.map(marker => {
                                         return (
                                             <div key={marker.id}>
-                                                <div className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/${marker.id}/project/${marker.id}`)}>
+                                                <div className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/5/project/${marker.id}`)}>
                                                     <div className={`number_marker`}>{marker.id}</div>
                                                 </div>
-                                                <div className={`description_marker position_description_marker_${marker.id}`} onClick={() => navigate(`/cluster/${marker.id}/project/${marker.id}`)}>{marker.title}</div>
+                                                <div className={`description_marker position_description_marker_${marker.id}`} onClick={() => navigate(`/cluster/5/project/${marker.id}`)}>{marker.title}</div>
                                             </div>
 
                                         )
-                                    })} */}
+                                    })}
                                     <Map4 className='centered-map' />
                                 </section>
 
@@ -363,17 +363,17 @@ const ItemCluster = () => {
                                         background: `url(${background_cluster_6}) no-repeat center`,
                                         backgroundSize: 'cover',                                        
                                     }}>
-                                    {/* {dataLogisticProject.map(marker => {
+                                    {dataArtemProject.map(marker => {
                                         return (
                                             <div key={marker.id}>
-                                                <div className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/${marker.id}/project/${marker.id}`)}>
+                                                <div className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/6/project/${marker.id}`)}>
                                                     <div className={`number_marker`}>{marker.id}</div>
                                                 </div>
-                                                <div className={`description_marker position_description_marker_${marker.id}`} onClick={() => navigate(`/cluster/${marker.id}/project/${marker.id}`)}>{marker.title}</div>
+                                                <div className={`description_marker position_description_marker_${marker.id}`} onClick={() => navigate(`/cluster/6/project/${marker.id}`)}>{marker.title}</div>
                                             </div>
 
                                         )
-                                    })} */}
+                                    })}
                                     <Map4 className='centered-map' /* style={{position: 'relative', top: '200px', right: '100px'}} *//>
                                 </section>
 
