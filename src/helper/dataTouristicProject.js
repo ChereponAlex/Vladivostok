@@ -11,18 +11,18 @@ const dataTouristicProject = [
     },
     {
         id: 2,
-        title: 'Реконструкция музея-заповедника “Владивостокская крепость”',
+        title: 'Рекреационный комплекс “Приморские тропики”',
         imageSrc: imageSrc2,
     },
     {
         id: 3,
-        title: 'Рекреационный комплекс “Приморские тропики”',
+        title: 'Чистые оборудованные пляжи',
         imageSrc: imageSrc3,
     },
-    {
-        id: 4,
-        title: 'Развитие природного парка на о. Русский',
-        imageSrc: imageSrc4,
-    },
+    // {
+    //     id: 4,
+    //     title: 'Развитие природного парка на о. Русский',
+    //     imageSrc: imageSrc4,
+    // },
 ]
 export default dataTouristicProject;

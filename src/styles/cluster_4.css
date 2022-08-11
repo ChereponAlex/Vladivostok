@@ -1,0 +1,69 @@
+.position_marker_technology_1 {
+    position: absolute;
+    right: 51.5%;
+    bottom: 43%;
+}
+.position_description_marker_technology_1{
+    position: absolute;
+    right: 45%;
+    bottom: 44.5%;
+
+}
+
+.position_marker_technology_2 {
+    position: absolute;
+    right: 57%;
+    bottom: 68%;
+}
+.position_description_marker_technology_2{
+    position: absolute;
+    right: 56%;
+    bottom: 64%;
+}
+
+.position_marker_technology_3 {
+    position: absolute;
+    right: 53%;
+    bottom: 50.5%;
+}
+
+.position_description_marker_technology_3{
+    position: absolute;
+    right: 32%;
+    bottom: 52%;
+
+}
+
+.position_marker_technology_4 {
+    position: absolute;
+    top: 29.5%;
+    left: 46.5%;
+}
+
+.position_description_marker_technology_4{
+    position: absolute;
+    top: 36%;
+    left: 46%;
+}
+.position_marker_technology_5 {
+    position: absolute;
+    top: 70%;
+    left: 53.5%;
+}
+
+.position_description_marker_technology_5{
+    position: absolute;
+    top: 76.5%;
+    left: 51%;
+}
+.position_marker_technology_6 {
+    position: absolute;
+    top: 43%;
+    left: 34%;
+}
+
+.position_description_marker_technology_6{
+    position: absolute;
+    top: 50%;
+    left: 29%;
+}

@@ -4,3 +4,50 @@
     background-size: 100% 100%;
     border-radius: 15px;
 }
+.position_marker_historical_1 {
+    position: absolute;
+    right: 68.5%;
+    bottom: 30%;
+}
+.position_description_marker_historical_1{
+    position: absolute;
+    right: 48%;
+    bottom: 26%;
+
+}
+
+.position_marker_historical_2 {
+    position: absolute;
+    right: 72%;
+    bottom: 42%;
+}
+.position_description_marker_historical_2{
+    position: absolute;
+    right: 39%;
+    bottom: 38%;
+}
+
+.position_marker_historical_3 {
+    position: absolute;
+    right: 67.5%;
+    bottom: 48.5%;
+}
+
+.position_description_marker_historical_3{
+    position: absolute;
+    right: 16%;
+    bottom: 46%;
+
+}
+
+.position_marker_historical_4 {
+    position: absolute;
+    top: 36%;
+    left: 49.5%;
+}
+
+.position_description_marker_historical_4{
+    position: absolute;
+    top: 42%;
+    left: 52%;
+}

@@ -1,0 +1,48 @@
+.position_marker_artem_1 {
+    cursor: pointer;
+    position: absolute;
+    right: 77%;
+    bottom: 51%;    
+}
+
+.position_description_marker_artem_1 {
+    position: absolute;
+    right: 62%;
+    bottom: 47.5%;
+}
+
+.position_marker_artem_2 {
+    position: absolute;
+    right: 30%;
+    bottom: 44.5%;
+}
+
+.position_description_marker_artem_2 {
+    position: absolute;
+    right: 1%;
+    bottom: 46%;
+}
+
+.position_marker_artem_3 {
+    position: absolute;
+    right: 28%;
+    bottom: 25%;
+}
+
+.position_description_marker_artem_3 {
+    position: absolute;
+    right: 1%;
+    bottom: 21%;
+}
+
+.position_marker_artem_4 {
+    position: absolute;
+    right: 57%;
+    bottom: 8%;  
+}
+
+.position_description_marker_artem_4 {
+    position: absolute;
+    right: 31.5%;
+    bottom: 9.4%; 
+}

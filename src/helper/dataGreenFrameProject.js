@@ -19,10 +19,10 @@ const dataGreenFrameProject = [
         title: 'Благоустройство набережных и создание пляжей',
         imageSrc: imageSrc3,
     },
-    {
-        id: 4,
-        title: 'Создание и благоустройство парков',
-        imageSrc: imageSrc4,
-    },
+    // {
+    //     id: 4,
+    //     title: 'Создание и благоустройство парков',
+    //     imageSrc: imageSrc4,
+    // },
 ]
 export default dataGreenFrameProject;

@@ -154,10 +154,10 @@ const ItemCluster = () => {
                                     {dataGreenFrameProject.map(marker => {
                                         return (
                                             <div key={marker.id}>
-                                                <div className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/2/project/${marker.id}`)}>
+                                                <div className={`marker_map_logistic position_marker_green_frame_${marker.id}`} onClick={() => navigate(`/cluster/2/project/${marker.id}`)}>
                                                     <div className={`number_marker`}>{marker.id}</div>
                                                 </div>
-                                                <div className={`description_marker position_description_marker_${marker.id}`} onClick={() => navigate(`/cluster/2/project/${marker.id}`)}>{marker.title}</div>
+                                                <div className={`description_marker position_description_marker_green_frame_${marker.id}`} onClick={() => navigate(`/cluster/2/project/${marker.id}`)}>{marker.title}</div>
                                             </div>
 
                                         )
@@ -205,10 +205,10 @@ const ItemCluster = () => {
                                     {dataHistoricalProject.map(marker => {
                                         return (
                                             <div key={marker.id}>
-                                                <div className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/3/project/${marker.id}`)}>
+                                                <div className={`marker_map_logistic position_marker_historical_${marker.id}`} onClick={() => navigate(`/cluster/3/project/${marker.id}`)}>
                                                     <div className={`number_marker`}>{marker.id}</div>
                                                 </div>
-                                                <div className={`description_marker position_description_marker_${marker.id}`} onClick={() => navigate(`/cluster/3/project/${marker.id}`)}>{marker.title}</div>
+                                                <div className={`description_marker position_description_marker_historical_${marker.id}`} onClick={() => navigate(`/cluster/3/project/${marker.id}`)}>{marker.title}</div>
                                             </div>
 
                                         )
@@ -256,10 +256,10 @@ const ItemCluster = () => {
                                     {dataTechnologyProject.map(marker => {
                                         return (
                                             <div key={marker.id}>
-                                                <div className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/4/project/${marker.id}`)}>
+                                                <div className={`marker_map_logistic position_marker_technology_${marker.id}`} onClick={() => navigate(`/cluster/4/project/${marker.id}`)}>
                                                     <div className={`number_marker`}>{marker.id}</div>
                                                 </div>
-                                                <div className={`description_marker position_description_marker_${marker.id}`} onClick={() => navigate(`/cluster/4/project/${marker.id}`)}>{marker.title}</div>
+                                                <div className={`description_marker position_description_marker_technology_${marker.id}`} onClick={() => navigate(`/cluster/4/project/${marker.id}`)}>{marker.title}</div>
                                             </div>
 
                                         )
@@ -311,10 +311,10 @@ const ItemCluster = () => {
                                     {dataTouristicProject.map(marker => {
                                         return (
                                             <div key={marker.id}>
-                                                <div className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/5/project/${marker.id}`)}>
+                                                <div className={`marker_map_logistic position_marker_touristic_${marker.id}`} onClick={() => navigate(`/cluster/5/project/${marker.id}`)}>
                                                     <div className={`number_marker`}>{marker.id}</div>
                                                 </div>
-                                                <div className={`description_marker position_description_marker_${marker.id}`} onClick={() => navigate(`/cluster/5/project/${marker.id}`)}>{marker.title}</div>
+                                                <div className={`description_marker position_description_marker_touristic_${marker.id}`} onClick={() => navigate(`/cluster/5/project/${marker.id}`)}>{marker.title}</div>
                                             </div>
 
                                         )
@@ -366,10 +366,10 @@ const ItemCluster = () => {
                                     {dataArtemProject.map(marker => {
                                         return (
                                             <div key={marker.id}>
-                                                <div className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/6/project/${marker.id}`)}>
+                                                <div className={`marker_map_logistic position_marker_artem_${marker.id}`} onClick={() => navigate(`/cluster/6/project/${marker.id}`)}>
                                                     <div className={`number_marker`}>{marker.id}</div>
                                                 </div>
-                                                <div className={`description_marker position_description_marker_${marker.id}`} onClick={() => navigate(`/cluster/6/project/${marker.id}`)}>{marker.title}</div>
+                                                <div className={`description_marker position_description_marker_artem_${marker.id}`} onClick={() => navigate(`/cluster/6/project/${marker.id}`)}>{marker.title}</div>
                                             </div>
 
                                         )

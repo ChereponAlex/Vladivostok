@@ -9,7 +9,14 @@ import ItemHistoricalProject from './pages/itemHistoricalProject';
 import mainpage from '../src/styles/mainpage.css';
 // import cluster_1 from '../src/styles/cluster_1.css';
 import cluster_1_grid from '../src/styles/cluster_1_grid.css';
+import cluster_2 from '../src/styles/cluster_2.css';
 import cluster_3 from '../src/styles/cluster_3.css';
+import cluster_4 from '../src/styles/cluster_4.css';
+import cluster_5 from '../src/styles/cluster_5.css';
+import cluster_6 from '../src/styles/cluster_6.css';
+
+
+
 import historical_project_1 from '../src/styles/historical_project_1.css'
 
 

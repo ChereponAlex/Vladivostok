@@ -1,0 +1,46 @@
+.position_marker_green_frame_1 {
+    position: absolute;
+    right: 42.5%;
+    bottom: 57%;
+}
+.position_description_marker_green_frame_1{
+    position: absolute;
+    right: 8%;
+    bottom: 53%;
+}
+
+.position_marker_green_frame_2 {
+    position: absolute;
+    right: 67%;
+    bottom: 39%;
+}
+.position_description_marker_green_frame_2{
+    position: absolute;
+    right: 48%;
+    bottom: 35%;
+}
+
+.position_marker_green_frame_3 {
+    position: absolute;
+    right: 57.5%;
+    bottom: 21.5%;
+}
+
+.position_description_marker_green_frame_3{
+    position: absolute;
+    right: 31%;
+    bottom: 18%;
+
+}
+
+/* .position_marker_green_frame_4 {
+    position: absolute;
+    top: 15%;
+    left: 49%;
+}
+
+.position_description_marker_green_frame_4{
+    position: absolute;
+    top: 20%;
+    left: 53%;
+} */
