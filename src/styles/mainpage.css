@@ -150,8 +150,9 @@
 
 .land_ways {
     position: fixed;
-    top: 18.5%;
+    top: 8.5%;
     left: 26%;
+
     z-index: 1;
 }
 
