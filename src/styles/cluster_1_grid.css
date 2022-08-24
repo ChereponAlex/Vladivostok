@@ -97,15 +97,39 @@
     left: 20px;
 }
 
-
-
-.background_cluster_page {
+.background_cluster_page{
     background: #010F1F;
-    /* background-size: 100%; */
+    /* background: url('../images/test_logisic_picture.jpg') no-repeat; */
+
+    /* background-size: 100% 100%; */
     width: 100%;
     height: 100%;
     z-index: 1;
 }
+
+.background_cluster_page_test {
+    /* background: #010F1F; */
+    background: url('../images/test_logisic_picture.jpg') no-repeat;
+
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.link_svg{
+    /* width: 100%;
+    height: 100%; */
+    position: absolute;
+    top: 18%;
+    left: 4.7%;
+    opacity: 0;
+    
+
+}
+.link_svg:hover{
+    cursor: pointer;
+}
+
 
 .header_btn_back_description {
     font-family: 'Graphik LC Web';

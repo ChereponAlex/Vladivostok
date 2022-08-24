@@ -64,6 +64,97 @@
     z-index: 2;
 }
 
+.sign_russkiy {
+    position: absolute;
+    top: 61%;
+    left: 19.8%;
+    z-index: 2;
+}
+
+.sign_bigstone {
+    position: absolute;
+    top: 26%;
+    left: 61.8%;
+    z-index: 2;
+}
+
+.sign_artem {
+    position: absolute;
+    top: 7%;
+    left: 44%;
+    z-index: 2;
+}
+
+.sign_aeroport {
+    position: absolute;
+    top: 4%;
+    left: 36%;
+    z-index: 2;
+}
+
+.icon_aeroport {
+    position: absolute;
+    top: 6.5%;
+    left: 41%;
+    z-index: 3;
+}
+
+.sign_vladivostok {
+    position: absolute;
+    top: 35%;
+    left: 34%;
+    z-index: 2;
+}
+
+.sign_tor {
+    position: absolute;
+    top: 13%;
+    left: 20%;
+    z-index: 2;
+}
+
+.sign_sanding {
+    position: absolute;
+    top: 36%;
+    left: 10.5%;
+    z-index: 2;
+}
+
+.sign_bridge_elena {
+    position: absolute;
+    top: 44.5%;
+    left: 16%;
+    z-index: 2;
+}
+
+.sign_island_popova {
+    position: absolute;
+    top: 71.5%;
+    left: 5%;
+    z-index: 2;
+}
+
+.sign_island_reineke {
+    position: absolute;
+    top: 84.5%;
+    left: 5%;
+    z-index: 2;
+}
+
+.sea_ways {
+    position: absolute;
+    top: 28%;
+    left: 0.2%;
+    z-index: 1;
+}
+
+.land_ways {
+    position: fixed;
+    top: 18.5%;
+    left: 26%;
+    z-index: 1;
+}
+
 #path_1 {
     cursor: pointer;
 }
@@ -294,20 +385,19 @@ a {
 .description_page {
     font-family: 'Graphik LC Web';
     font-style: normal;
-    font-weight: 700;
-    font-size: 2.40vw;
+    font-weight: 400;
+    font-size: 2.19vw;
     line-height: 2.60vw;
+    text-transform: uppercase;
     position: fixed;
-    right: 5%;
-    top: 6%;
+    right: 20%;
+    bottom: 2.5%;
     /* opacity: 0; */
     color: #FFFFFF;
     /* width: 2.875rem; */
-    width: 24.64vw;
+    /* width: 24.64vw; */
     z-index: 3;
-
-
-
+    /* width: 30%; */
 }
 
 .container_clusters_list {
@@ -338,7 +428,7 @@ a {
 .name_cluster_item {
     font-family: 'Graphik LC Web';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.94vw;
     line-height: 0.94vw;
     color: #FFFFFF;
@@ -386,8 +476,8 @@ a {
     font-family: 'Graphik LC Web';
     font-style: normal;
     font-weight: 400;
-    font-size: 0.94vw;
-    line-height: 0.94vw;
+    font-size: 0.83vw;
+    line-height: 0.83vw;
     color: #FFFFFF;
     opacity: 0.5;
     z-index: 3;
@@ -395,8 +485,8 @@ a {
 
 .amur_bay_position {
     position: fixed;
-    top: 32%;
-    left: 18%;
+    top: 63%;
+    left: 3%;
 }
 
 .ussuri_bay_position {
@@ -408,7 +498,7 @@ a {
 .text_city {
     font-family: 'Graphik LC Web';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 0.83vw;
     line-height: 0.83vw;
     color: #FFFFFF;
@@ -418,20 +508,20 @@ a {
 
 .big_stone_position {
     position: fixed;
-    top: 31%;
-    right: 30.5%;
+    top: 25%;
+    right: 24.5%;
 }
 
 .artem_position {
     position: fixed;
-    top: 6%;
-    right: 50%;
+    top: 5%;
+    right: 54.5%;
 }
 
 .vladivostok_position {
     position: fixed;
-    top: 28%;
-    right: 60%;
+    top: 33%;
+    right: 63%;
 }
 
 .island_russian_position {
@@ -440,34 +530,72 @@ a {
     right: 76%;
 }
 
+.aeroport {
+    position: fixed;
+    top: 2%;
+    right: 58%;
+}
+
+.tor_nadeschdin {
+    position: fixed;
+    top: 12.5%;
+    right: 80.5%;
+}
+
+.sanding {
+    position: fixed;
+    top: 35.7%;
+    right: 87.5%;
+}
+
+.bridge_elena {
+    position: fixed;
+    top: 43.8%;
+    right: 84.5%;
+}
+
+.island_popova {
+    position: fixed;
+    top: 70%;
+    right: 93.5%;
+}
+
+.island_reineke {
+    position: fixed;
+    top: 83%;
+    right: 94%;
+}
+
+
+
 .text_location_1 {
     position: fixed;
-    left: 38%;
-    top: 31%;
+    left: 42.5%;
+    top: 27%;
 }
 
 .text_location_2 {
     position: fixed;
-    left: 33%;
-    top: 41%;
+    left: 35%;
+    top: 42%;
 }
 
 .text_location_3 {
     position: fixed;
-    left: 31%;
-    top: 58%;
+    left: 32%;
+    top: 61%;
 }
 
 .text_location_4 {
     position: fixed;
     left: 24%;
-    top: 67%;
+    top: 76%;
 }
 
 .text_location_5 {
     position: fixed;
-    left: 54%;
-    top: 45%;
+    left: 56%;
+    top: 59%;
 }
 
 .cluster_block {
@@ -478,22 +606,29 @@ a {
     flex-grow: 0;
     background: rgba(255, 255, 255, 0.8);
     /* border: 1px solid #FFFFFF; */
-    border-radius: 100px;
+    /* border-radius: 100px; */
     z-index: 23;
     padding: 0.52vw 1.04vw;
-    width: 12.50vw;
+    /* width: 12.50vw; */
     /* max-width: 251px; */
     /* height: 56px; */
 
+
 }
 
+
 .cluster_block_text {
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
     font-family: 'Graphik LC Web';
     font-style: normal;
     font-weight: 400;
-    font-size: 0.94vw;
-    line-height: 0.94vw;
+    font-size: 0.83vw;
+    line-height: 0.83vw;
     color: #FFFFFF;
+    text-align: center;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -501,29 +636,38 @@ a {
     /* width: 11.41vw; */
 }
 
+
 .transport_marker_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 9.38vw;
+    min-height: 2.50vw;
+    text-align: center;
+    vertical-align: middle;
     z-index: 4;
-    padding: 0.26vw 0.42vw;
-    border-radius: 0.26vw;
+    /* padding-top: 1.26vw; */
+    /* padding: 0.26vw 0.82vw; */
+    /* border-radius: 0.26vw; */
 
 }
 
 .transport_marker_location_1 {
     position: fixed;
-    left: 18.5%;
-    top: 26.5%;
+    left: 19%;
+    top: 24.5%;
 }
 
 .transport_marker_location_2 {
     position: fixed;
-    left: 21.9%;
-    top: 38%;
+    left: 17%;
+    top: 33%;
 }
 
 .transport_marker_location_3 {
     position: fixed;
-    left: 1%;
-    top: 52%;
+    left: 2.5%;
+    top: 51%;
 }
 
 /* .cluster_block_text {
@@ -538,14 +682,14 @@ a {
     flex-grow: 0;
 } */
 
-.transport_marker_line_1 {
+/* .transport_marker_line_1 {
     z-index: -1;
     position: fixed;
     left: 28%;
     top: 28%;
     width: 0.21vw;
     height: 2.7vw;
-    background-color: #312FA3;
+    background-color: #1C5896;
 
 }
 
@@ -569,7 +713,7 @@ a {
     height: 2.7vw;
     background-color: #4496B0;
 
-}
+} */
 
 .container_transport_list {
     display: flex;

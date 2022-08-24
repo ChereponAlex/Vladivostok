@@ -8,6 +8,7 @@ import background_cluster_2 from '../../images/background_cluster_2.jpg';
 import background_cluster_5 from '../../images/background_cluster_5.jpg';
 import background_cluster_6 from '../../images/background_cluster_6.jpg';
 
+import { ReactComponent as Test_sputnik_project_1_picture } from '../../images/test_sputnik_project_1_picture.svg'
 
 
 import { ReactComponent as Back_btn } from '../../images/backButton.svg';
@@ -71,13 +72,15 @@ const ItemCluster = () => {
     // const { search } = useLocation();
     const navigate = useNavigate();
 
+    // test_logisic_picture.jpg
     return (
         <>
             {
                 id == '1' ?
                     <>
-                        <div className="background_cluster_page" >
-                            <header className='header_cluster_1'>
+                        <div className="background_cluster_page_test" >
+                        <Test_sputnik_project_1_picture  className='link_svg' onClick={() => navigate('/cluster/1/project/1')}/>
+                            {/* <header className='header_cluster_1'>
                                 <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
                                     <Back_btn className='header_cluster_logistic_btn_back' />
                                     <div className='header_cluster_logistic_description_btn'>На главную</div>
@@ -118,7 +121,7 @@ const ItemCluster = () => {
                                         } else return null
                                     })}
                                 </section>
-                            </main>
+                            </main> */}
                         </div>
                     </>
                     : null

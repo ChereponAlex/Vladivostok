@@ -14,7 +14,11 @@ const ItemLogisticProject = () => {
 
     switch (projectID) {
         case '1':
-            return 'ТОР Большой камень'
+            return /* 'ТОР Большой камень' */ (
+                <div className='background_test_sputnik'>
+                    
+                </div>
+            )
             break;
         case '2':
             return 'ССК Звезда'
@@ -30,11 +34,11 @@ const ItemLogisticProject = () => {
                     <header className='header_logistic_project_4'>
                         <div className='header_btn_back_container' >
                             <div className='header_btn_back_cluster' onClick={() => navigate('/cluster/1')}>
-                                <Back_btn className='header_icons'/>
+                                <Back_btn className='header_icons' />
                                 <div className='header_btn_back_description'>Назад к кластеру</div>
                             </div>
-                            <div className='header_btn_back_cluster' onClick={() => navigate('/')} style={{marginLeft: '6.04vw'}}  >
-                                <Back_home className='header_icons'/>
+                            <div className='header_btn_back_cluster' onClick={() => navigate('/')} style={{ marginLeft: '6.04vw' }}  >
+                                <Back_home className='header_icons' />
                                 <div className='header_btn_back_description'>На главную</div>
                             </div>
 

@@ -21,6 +21,8 @@ import historical_project_1 from '../src/styles/historical_project_1.css'
 
 
 import project_4 from '../src/styles/project_4.css'
+import project_1 from '../src/styles/project_1.css'
+
 import React, { useState, useEffect } from 'react';
 import ClipLoader from "react-spinners/ClipLoader";
 
