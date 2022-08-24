@@ -86,7 +86,7 @@ const MainPage = () => {
       <div className='text_city vladivostok_position'>г. Владивосток</div>
       <div className='text_city island_russian_position'>о. Русский</div>
 
-      <div className='text_city aeroport'>Аэропорт (Кневичи) имени В.К. Арсеньева</div>
+      <div className='text_city aeroport'>Аэропорт (Кневичи) <br/> имени В.К. Арсеньева</div>
       <div className='text_city tor_nadeschdin'>ТОР Надеждинская</div>
       <div className='text_city sanding'>мыс Песчаный</div>
       <div className='text_city bridge_elena'>мост на о. Елены</div>
@@ -172,8 +172,8 @@ const MainPage = () => {
       <Sign_bridge_elena className='sign_bridge_elena'/>
       <Sign_island_popova className='sign_island_popova'/>
       <Sign_island_reineke className='sign_island_reineke'/>
-      <Sea_ways className='sea_ways'/>
-      <Land_ways className='land_ways'/>
+      {/* <Sea_ways className='sea_ways'/> */}
+      {/* <Land_ways className='land_ways'/> */}
     </div>
   )
 }

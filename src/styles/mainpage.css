@@ -88,7 +88,7 @@
 .sign_aeroport {
     position: absolute;
     top: 4%;
-    left: 36%;
+    left: 36.5%;
     z-index: 2;
 }
 
@@ -148,9 +148,9 @@
     z-index: 1;
 }
 
-.land_ways {
-    position: fixed;
-    top: 8.5%;
+#land_ways {
+    position: absolute;
+    top: 58.5%;
     left: 26%;
 
     z-index: 1;
@@ -534,7 +534,7 @@ a {
 .aeroport {
     position: fixed;
     top: 2%;
-    right: 58%;
+    right: 64.5%;
 }
 
 .tor_nadeschdin {
