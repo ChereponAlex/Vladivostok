@@ -131,8 +131,9 @@
 
 .sign_sanding {
     position: absolute;
-    top: 41%;
+    top: 42%;
     left: 16%;
+
     z-index: 2;
 }
 
@@ -403,7 +404,7 @@ a {
     margin-bottom: 30px;
     font-family: 'Graphik LC Web';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 2.19vw;
     line-height: 2.60vw;
     text-transform: uppercase;
@@ -494,8 +495,8 @@ a {
     font-family: 'Graphik LC Web';
     font-style: normal;
     font-weight: 400;
-    font-size: 0.83vw;
-    line-height: 0.83vw;
+    font-size: 0.7vw;
+    line-height: 0.7vw;
     color: #FFFFFF;
     opacity: 0.5;
     z-index: 3;
@@ -503,7 +504,7 @@ a {
 
 .amur_bay_position {
     position: fixed;
-    top: 64%;
+    top: 65%;
     left: 11%;
 }
 
@@ -517,8 +518,8 @@ a {
     font-family: 'Graphik LC Web';
     font-style: normal;
     font-weight: 400;
-    font-size: 0.83vw;
-    line-height: 0.83vw;
+    font-size: 0.7vw;
+    line-height: 0.7vw;
     color: #FFFFFF;
     text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.75);
     z-index: 3;
@@ -527,13 +528,13 @@ a {
 .big_stone_position {
     position: fixed;
     top: 32.5%;
-    right: 27%;
+    right: 28%;
 }
 
 .artem_position {
     position: fixed;
-    top: 15.5%;
-    right: 53%;
+    right: 53.3%;
+    top: 16%;
     z-index: 3;
 }
 
@@ -563,7 +564,7 @@ a {
 
 .sanding {
     position: fixed;
-    top: 40.7%;
+    top: 41.7%;
     right: 81.7%;
 }
 
@@ -627,7 +628,7 @@ a {
     /* border: 1px solid #FFFFFF; */
     /* border-radius: 100px; */
     z-index: 23;
-    padding: 0.52vw 1.04vw;
+    padding: 0.43vw 0.87vw;
     /* width: 12.50vw; */
     /* max-width: 251px; */
     /* height: 56px; */
@@ -644,8 +645,8 @@ a {
     font-family: 'Graphik LC Web';
     font-style: normal;
     font-weight: 400;
-    font-size: 0.83vw;
-    line-height: 0.83vw;
+    font-size: 0.7vw;
+    line-height: 0.7vw;
     color: #FFFFFF;
     text-align: center;
     flex: none;
