@@ -109,7 +109,7 @@ const MainPage = () => {
             return (
 
               <div
-                onClick={(e) => console.log(e.target.id)}
+                onClick={() => navigate(`/cluster/${cluster.id}`)}
                 key={cluster.id}
                 className={`cluster_block text_location_${cluster.id}`}
                 style={{ background: `${cluster.color}` }}
@@ -124,7 +124,7 @@ const MainPage = () => {
 
         </div>
         <Background className="background_1" onClick={(e) => changeRoute(e.target.id)} />
-        <SignRusskiy className="sign_russkiy" />
+        {/* <SignRusskiy className="sign_russkiy" />
         <BigStone className="sign_bigstone" />
         <SignArtem className='sign_artem' />
         <SignAeroport className='sign_aeroport' />
@@ -134,7 +134,7 @@ const MainPage = () => {
         <SignSanding className='sign_sanding' />
         <Sign_bridge_elena className='sign_bridge_elena' />
         <Sign_island_popova className='sign_island_popova' />
-        <Sign_island_reineke className='sign_island_reineke' />
+        <Sign_island_reineke className='sign_island_reineke' /> */}
       </div>
     </div>
   )
