@@ -517,7 +517,7 @@ a {
 .text_city {
     font-family: 'Graphik LC Web';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.7vw;
     line-height: 0.7vw;
     color: #FFFFFF;
@@ -617,6 +617,11 @@ a {
     left: 28%;
     top: 75%;
 }
+.text_location_6 {
+    position: fixed;
+    left: 45%;
+    top: 14.6%;
+}
 
 .cluster_block {
     z-index: 3;
@@ -644,7 +649,7 @@ a {
     transform: translate(-50%, -50%); */
     font-family: 'Graphik LC Web';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.7vw;
     line-height: 0.7vw;
     color: #FFFFFF;

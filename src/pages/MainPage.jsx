@@ -72,7 +72,7 @@ const MainPage = () => {
         <div className='text_sea ussuri_bay_position'>Уссурийский залив</div>
 
         <div className='text_city big_stone_position'>ТОР Большой камень</div>
-        <div className='text_city artem_position'>г. Артем</div>
+        {/* <div className='text_city artem_position'>г. Артем</div> */}
         <div className='text_city vladivostok_position'>г. Владивосток</div>
         <div className='text_city island_russian_position'>о. Русский</div>
 
