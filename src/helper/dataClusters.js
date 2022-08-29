@@ -1,7 +1,7 @@
 const dataClusters = [
     {
         id: 1,
-        title: <p>Промышленно&nbsp;-&nbsp;логичический <br/> пояс</p>,
+        title: <p>Промышленно-логичический <br/> пояс</p>,
         color: 'rgba(255, 255, 255, 0.15)'
     },
     {

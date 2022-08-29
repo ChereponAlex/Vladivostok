@@ -279,8 +279,7 @@ style="position: absolute; top: 58.5%; left: 26%;"
 
 <!-- Маркеры -->
 
-<rect width="180" height="48" transform="translate(337 351)" fill="#724458" fill-opacity="0.85"/>
-<line x1="602.526" y1="507.158" x2="572.526" y2="417.158" stroke="white"/>
+<!-- <line x1="602.526" y1="507.158" x2="572.526" y2="417.158" stroke="white"/> -->
 <circle cx="601.637" cy="136.357" r="3.5" transform="rotate(-72.5 601.637 136.357)" fill="white"/>
 <line x1="389" y1="136.5" x2="601" y2="136.5" stroke="white"/>
 
@@ -349,6 +348,20 @@ style="position: absolute; top: 58.5%; left: 26%;"
 <path d="M1249.4 452.4C1249.4 455.3 1247 457.7 1244.1 457.7C1241.2 457.7 1238.8 455.3 1238.8 452.4" stroke="#231F20" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="square" stroke-linejoin="round"/>
 </g>
 
+<!-- icon_bridge -->
+<g clip-path="url(#clip9_681_1980)">
+<path d="M423 526.1C423 518.3 429.3 512 437.1 512C444.9 512 451.2 518.3 451.2 526.1C451.2 533.9 444.9 540.2 437.1 540.2C429.3 540.2 423 533.9 423 526.1Z" fill="white"/>
+<path d="M437.3 528.5H427.1M426.6 524.1C427.8 523.7 429.9 522.7 431.2 520M431.7 520C432.8 522 434.1 524.2 437.2 524.2M431.5 518.7V533.3" stroke="#231F20" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="square" stroke-linejoin="round"/>
+<path d="M448.1 528.5H438M444 520C445.3 522.7 447.5 523.7 448.6 524.1M438 524.2C441.2 524.2 442.5 521.9 443.5 520M443.8 533.3V518.7" stroke="#231F20" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="square" stroke-linejoin="round"/>
+</g>
+<!-- icon_bridge -->
+<g clip-path="url(#clip10_681_1980)">
+<path d="M519 620.1C519 612.3 525.3 606 533.1 606C540.9 606 547.2 612.3 547.2 620.1C547.2 627.9 540.9 634.2 533.1 634.2C525.3 634.2 519 627.9 519 620.1Z" fill="white"/>
+<path d="M533.3 622.5H523.1M522.6 618.1C523.8 617.7 525.9 616.7 527.2 614M527.7 614C528.8 616 530.1 618.2 533.2 618.2M527.5 612.7V627.3" stroke="#231F20" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="square" stroke-linejoin="round"/>
+<path d="M544.1 622.5H534M540 614C541.3 616.7 543.5 617.7 544.6 618.1M534 618.2C537.2 618.2 538.5 615.9 539.5 614M539.8 627.3V612.7" stroke="#231F20" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="square" stroke-linejoin="round"/>
+</g>
+<line x1="541" y1="620.5" x2="660" y2="620.5" stroke="white"/>
+<line x1="483.992" y1="400.5" x2="546.992" y2="399.5" stroke="white"/>
 <!-- icon_investments -->
 <g clip-path="url(#clip6_681_1980)">
 <path d="M563.2 415.4C571.042 415.4 577.4 409.042 577.4 401.2C577.4 393.358 571.042 387 563.2 387C555.358 387 549 393.358 549 401.2C549 409.042 555.358 415.4 563.2 415.4Z" fill="white"/>

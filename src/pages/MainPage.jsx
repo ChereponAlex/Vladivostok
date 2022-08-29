@@ -38,7 +38,9 @@ const MainPage = () => {
         <div className='text_city aeroport'>Международный аэропорт <br /> Владивосток им. В.К. Арсеньева</div>
         <div className='text_city tor_nadeschdin'>ТОР Надеждинская</div>
         <div className='text_city sanding'>мыс Песчаный</div>
-        <div className='text_city bridge_elena'>мост на о. Елены</div>
+        <div className='text_city bridge_elena'>Новый мост <br/> на о. Елены</div>
+        <div className='text_city bridge_bay_new'>Новый мост через <br/> бух. Новика</div>
+
         <div className='text_city island_popova'>о. Попова</div>
         <div className='text_city island_reineke'>о. Рейнеке</div>
         <div className='text_city island_naumova'>о. Наумова</div>
@@ -50,14 +52,8 @@ const MainPage = () => {
             return (
 
               <div className='container_gerbs_item' key={id} >
-                {/* <div style={{
-                    background:  `no-repeat url("${gerb}")`, 
-                    width: '70px', 
-                    height: '78px',
-                    backgroundSize: 'cover' 
-                    }}/> */}
-                <img src={gerb} alt={title} style={{ /* width: '3.39vw',  */height: '4.06vw' }} />
-                <div className='gerb_text' >{title}</div>
+                <img src={gerb} alt={title} style={{ width: '3.39vw', height: '4.06vw' }} />
+                <div className='gerb_text'>{title}</div>
               </div>
 
             )
@@ -126,7 +122,7 @@ const MainPage = () => {
 
 
         </div>
-        <Background className="background_1" onClick={(e) => changeRoute(e.target.id)} />
+        <Background className="background_svg" onClick={(e) => changeRoute(e.target.id)} />
       </div>
     </div>
   )

@@ -73,11 +73,11 @@
     z-index: 1;
 }
 
-.background_1 {
+.background_svg {
     position: absolute;
     width: 84%;
     height: 84%;
-    z-index: 2;
+    z-index: 1;
 }
 
 .sign_russkiy {
@@ -159,7 +159,7 @@
 }
 .island_naumova{
     position: absolute;
-    top: 76.8%;
+    top: 77%;
     left: 22%;
     z-index: 2;
 }
@@ -583,8 +583,13 @@ a {
 
 .bridge_elena {
     position: fixed;
-    top: 48.3%;
+    top: 47.5%;
     right: 78.9%;
+}
+.bridge_bay_new{
+    position: fixed;
+    top: 58.5%;
+    right: 56.5%;
 }
 
 .island_popova {
@@ -616,7 +621,7 @@ a {
 .text_location_3 {
     position: fixed;
     left: 37.5%;
-    top: 46%;
+    top: 46.5%;
 }
 
 .text_location_4 {
@@ -692,14 +697,14 @@ a {
 
 .transport_marker_location_1 {
     position: fixed;
-    left: 24.5%;
-    top: 32.5%;
+    left: 25.3%;
+    top: 31.7%;
 }
 
 .transport_marker_location_2 {
     position: fixed;
     left: 22.7%;
-    top: 39%;
+    top: 36%;
 }
 
 .transport_marker_location_3 {
@@ -854,8 +859,8 @@ a {
 }
 .invest_location_3{
     position: absolute;
-    top: 51.3%;
-    left: 34.2%;
+    top: 41.3%;
+    left: 23.5%;
     z-index: 2;
 }
 
