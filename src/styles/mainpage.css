@@ -157,6 +157,19 @@
     left: 11.3%;
     z-index: 2;
 }
+.island_naumova{
+    position: absolute;
+    top: 76.8%;
+    left: 22%;
+    z-index: 2;
+}
+
+.town_sputnik{
+    position: absolute;
+    top: 21%;
+    left: 19.5%;
+    z-index: 2;
+}
 
 .sea_ways {
     position: absolute;
@@ -510,7 +523,7 @@ a {
 
 .ussuri_bay_position {
     position: fixed;
-    top: 55%;
+    top: 57%;
     left: 46%;
 }
 
@@ -558,8 +571,8 @@ a {
 
 .tor_nadeschdin {
     position: fixed;
-    top: 22.3%;
-    right: 75.7%;
+    top: 25.6%;
+    right: 77%;
 }
 
 .sanding {
@@ -590,8 +603,8 @@ a {
 
 .text_location_1 {
     position: fixed;
-    left: 54.5%;
-    top: 59%;
+    left: 51%;
+    top: 50%;
 }
 
 .text_location_2 {
@@ -614,8 +627,8 @@ a {
 
 .text_location_5 {
     position: fixed;
-    left: 28%;
-    top: 75%;
+    left: 31.7%;
+    top: 69%;
 }
 .text_location_6 {
     position: fixed;
@@ -795,4 +808,53 @@ a {
     z-index: 5;
     left: 9.7%;
     top: 57%;
+}
+.port_text{
+    font-family: 'Graphik LC Web';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7vw;
+    line-height: 0.7vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+.port_location_1{
+    position: absolute;
+    top: 28%;
+    left: 51.7%;
+    z-index: 2;
+}
+.port_location_2{
+    position: absolute;
+    top: 48.3%;
+    left: 59%;
+    z-index: 2;
+}
+
+.invest_text{
+    font-family: 'Graphik LC Web';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.63vw;
+    line-height: 0.63vw;    
+    color: #FFFFFF;
+    text-align: start;
+}
+.invest_location_1{
+    position: absolute;
+    top: 79%;
+    left: 16.3%;
+    z-index: 2;
+}
+.invest_location_2{
+    position: absolute;
+    top: 72.3%;
+    left: 20.5%;
+    z-index: 2;
+}
+.invest_location_3{
+    position: absolute;
+    top: 51.3%;
+    left: 34.2%;
+    z-index: 2;
 }
