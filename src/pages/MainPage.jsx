@@ -9,6 +9,7 @@ import dataClusters from '../helper/dataClusters';
 import dataTransport from '../helper/dataTransport';
 import dataPorts from '../helper/dataPorts';
 import dataInvest from '../helper/dataInvest';
+import dataGerbs from '../helper/dataGerbs';
 
 
 const MainPage = () => {
@@ -42,6 +43,26 @@ const MainPage = () => {
         <div className='text_city island_reineke'>о. Рейнеке</div>
         <div className='text_city island_naumova'>о. Наумова</div>
         <div className='text_city town_sputnik'>Город-спутник <br /> Владивостока</div>
+
+
+        <div className='container_gerbs'>
+          {dataGerbs.map(({ id, title, gerb }) => {
+            return (
+
+              <div className='container_gerbs_item' key={id} >
+                {/* <div style={{
+                    background:  `no-repeat url("${gerb}")`, 
+                    width: '70px', 
+                    height: '78px',
+                    backgroundSize: 'cover' 
+                    }}/> */}
+                <img src={gerb} alt={title} style={{ /* width: '3.39vw',  */height: '4.06vw' }} />
+                <div className='gerb_text' >{title}</div>
+              </div>
+
+            )
+          })}
+        </div>
 
         <div>
           {dataInvest.map(({ id, title }) => {
