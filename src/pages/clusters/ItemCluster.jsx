@@ -78,8 +78,8 @@ const ItemCluster = () => {
             {
                 id == '1' ?
                     <>
-                        <div className="background_cluster_page_test" >
-                        <Test_sputnik_project_1_picture  className='link_svg' onClick={() => navigate('/cluster/1/project/1')}/>
+                        <div className="background_cluster_page_test">
+                            <Test_sputnik_project_1_picture className='link_svg' onClick={() => navigate('/cluster/1/project/1')} />
                             {/* <header className='header_cluster_1'>
                                 <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
                                     <Back_btn className='header_cluster_logistic_btn_back' />
@@ -338,7 +338,7 @@ const ItemCluster = () => {
                     </>
                     : null
             }
-             {
+            {
                 id == '6' ?
                     <>
                         <div className="background_cluster_page" >
@@ -364,7 +364,7 @@ const ItemCluster = () => {
                                 <section className='section_center_2'
                                     style={{
                                         background: `url(${background_cluster_6}) no-repeat center`,
-                                        backgroundSize: 'cover',                                        
+                                        backgroundSize: 'cover',
                                     }}>
                                     {dataArtemProject.map(marker => {
                                         return (
@@ -377,7 +377,7 @@ const ItemCluster = () => {
 
                                         )
                                     })}
-                                    <Map4 className='centered-map' /* style={{position: 'relative', top: '200px', right: '100px'}} *//>
+                                    <Map4 className='centered-map' /* style={{position: 'relative', top: '200px', right: '100px'}} */ />
                                 </section>
 
                                 <section className='section'>

@@ -38,17 +38,29 @@
 }
 
 .app-container {
+    /* min-width: 100vw;
+    min-height: 100vh; */
     width: 100vw;
     height: 100vh;
-    /* max-width: 1920px;
-    max-height: 1080px; */
+}
+
+.title {
+    font-family: "Graphik LC Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 120%;
+    color: white;
+    text-transform: uppercase;
+    width: 98%;
+    text-align: center;
+    margin: 39px 0 31px;
 }
 
 .main-page-background {
     /* position: relative; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     height: 100%;
@@ -56,33 +68,52 @@
 }
 
 .main-page-container {
-    
-    /* margin-left: 40px;
-    margin-right: 40px; */
-    width: 84%;
-    height: 84%;
-    overflow: auto;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    max-width: 1620px;
+    max-height: 910px;
+    /* overflow: auto; */
+    margin: 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.background {
-    /* background: url('/src/images/background.png') no-repeat center; */
-    background: url('/src/images/background_high_quality.jpg') no-repeat center;
-    /* background: url('/src/images/main_background_tiny.jpg') no-repeat center; */
-
-
-    background-size: 100% 100%;
-    position: absolute;
-    width: 84%;
-    height: 84%;
+.content {
     z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 98%;
+    max-width: 1620px;
+    aspect-ratio: 16 / 9;
+}
+
+.background__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
 }
 
 .background_svg {
     position: absolute;
-    width: 84%;
-    height: 84%;
+    object-fit: contain;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     z-index: 1;
-    
+}
+
+.texts {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
 }
 
 /* .container_background_svg{
@@ -168,15 +199,15 @@
 }
 .island_naumova{
     position: absolute;
-    top: 77%;
-    left: 22%;
+    top: 77.5%;
+    left: 16.5%;
     z-index: 2;
 }
 
 .town_sputnik{
     position: absolute;
-    top: 21%;
-    left: 19.5%;
+    top: 10.75%;
+    left: 12.5%;
     z-index: 2;
 }
 
@@ -241,7 +272,7 @@ a {
 
 
 #cluster_1 {
-    position: fixed;
+    position: absolute;
     /* right: 372px;
     top: 5px; */
     pointer-events: none;
@@ -263,44 +294,44 @@ a {
 } */
 
 .marker_cluster_1 {
-    position: fixed;
+    position: absolute;
     right: 650px;
     bottom: 585px;
 }
 
 .dot_1 {
-    position: fixed;
+    position: absolute;
     right: 640px;
     bottom: 633px;
 }
 
 .cluster_name_position_1 {
-    position: fixed;
+    position: absolute;
     right: 660px;
     bottom: 545px;
 }
 
 #cluster_2 {
-    position: fixed;
+    position: absolute;
     left: 620px;
     top: 100px;
     pointer-events: none;
 }
 
 .marker_cluster_2 {
-    position: fixed;
+    position: absolute;
     left: 860px;
     top: 230px;
 }
 
 .dot_2 {
-    position: fixed;
+    position: absolute;
     left: 850px;
     top: 215px;
 }
 
 .cluster_name_position_2 {
-    position: fixed;
+    position: absolute;
     left: 840px;
     top: 310px;
 }
@@ -317,26 +348,26 @@ a {
 } */
 
 #cluster_3 {
-    position: fixed;
+    position: absolute;
     left: 435px;
     top: 272px;
     pointer-events: none;
 }
 
 .marker_cluster_3 {
-    position: fixed;
+    position: absolute;
     left: 655px;
     top: 420px;
 }
 
 .cluster_name_position_3 {
-    position: fixed;
+    position: absolute;
     left: 715px;
     top: 455px;
 }
 
 .dot_3 {
-    position: fixed;
+    position: absolute;
     left: 645px;
     top: 409px;
 }
@@ -353,26 +384,26 @@ a {
 
 
 #cluster_4 {
-    position: fixed;
+    position: absolute;
     left: 405px;
     top: 505px;
     pointer-events: none;
 }
 
 .marker_cluster_4 {
-    position: fixed;
+    position: absolute;
     left: 595px;
     top: 625px;
 }
 
 .cluster_name_position_4 {
-    position: fixed;
+    position: absolute;
     left: 650px;
     bottom: 350px;
 }
 
 .dot_4 {
-    position: fixed;
+    position: absolute;
     left: 585px;
     top: 614px;
 }
@@ -388,26 +419,26 @@ a {
 } */
 
 #cluster_5 {
-    position: fixed;
+    position: absolute;
     left: 227px;
     top: 547px;
     pointer-events: none;
 }
 
 .cluster_name_position_5 {
-    position: fixed;
+    position: absolute;
     left: 500px;
     bottom: 250px;
 }
 
 .marker_cluster_5 {
-    position: fixed;
+    position: absolute;
     left: 445px;
     bottom: 285px;
 }
 
 .dot_5 {
-    position: fixed;
+    position: absolute;
     left: 435px;
     bottom: 323px;
 }
@@ -424,7 +455,7 @@ a {
 
 .description_page {
     margin-bottom: 30px;
-    font-family: 'Graphik LC Web';
+    font-family: 'Graphik LC Web', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 2.19vw;
@@ -449,14 +480,14 @@ a {
     width: 35.57vw;
     /* height: 7.5vw; */
     color: white;
-    position: fixed;
+    position: absolute;
     right: 18%;
     bottom: 3.5%;
     z-index: 2;
 }
 
 .descriprion_clusters_list {
-    font-family: 'Graphik LC Web';
+    font-family: 'Graphik LC Web', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 0.94vw;
@@ -467,7 +498,7 @@ a {
 
 
 .name_cluster_item {
-    font-family: 'Graphik LC Web';
+    font-family: 'Graphik LC Web', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 0.94vw;
@@ -514,43 +545,43 @@ a {
 } */
 
 .text_sea {
-    font-family: 'Graphik LC Web';
+    font-family: 'Graphik LC Web', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 0.7vw;
-    line-height: 0.7vw;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
     color: #FFFFFF;
     opacity: 0.5;
     z-index: 3;
 }
 
 .amur_bay_position {
-    position: fixed;
-    top: 66%;
-    left: 10.8%;
+    position: absolute;
+    top: 64%;
+    left: 3%;
 }
 
 .ussuri_bay_position {
-    position: fixed;
+    position: absolute;
     top: 57%;
-    left: 46%;
+    left: 48%;
 }
 
 .text_city {
-    font-family: 'Graphik LC Web';
+    font-family: 'Graphik LC Web', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 0.7vw;
-    line-height: 0.7vw;
+    font-size: 16px;
+    line-height: 100%;
     color: #FFFFFF;
-    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.75);
+    text-shadow: 0 0 4px rgba(0, 0, 0, 1);
     z-index: 3;
 }
 
 .big_stone_position {
-    position: fixed;
-    top: 32.8%;
-    right: 29%;
+    position: absolute;
+    top: 25%;
+    right: 23%;
 }
 
 /* .artem_position {
@@ -561,97 +592,113 @@ a {
 } */
 
 .vladivostok_position {
-    position: fixed;
-    top: 39.5%;
-    right: 60.5%;
+    position: absolute;
+    top: 33%;
+    right: 62%;
 }
 
 .island_russian_position {
-    position: fixed;
-    top: 61.8%;
-    right: 71.3%;
+    position: absolute;
+    top: 59%;
+    right: 75%;
 }
 
 .aeroport {
-    position: fixed;
-    top: 13%;
-    right: 62.5%;
+    position: absolute;
+    top: 2%;
+    right: 64.5%;
 }
 
 .tor_nadeschdin {
-    position: fixed;
-    top: 25.6%;
-    right: 77%;
+    position: absolute;
+    top: 16.25%;
+    right: 82%;
 }
 
 .sanding {
-    position: fixed;
-    top: 41.7%;
-    right: 81%;
+    position: absolute;
+    top: 35.5%;
+    right: 87%;
 }
 
 .bridge_elena {
-    position: fixed;
-    top: 47.5%;
-    right: 78.9%;
+    position: absolute;
+    top: 42.5%;
+    right: 84.2%;
 }
 .bridge_bay_new{
-    position: fixed;
-    top: 58.5%;
+    position: absolute;
+    top: 56%;
     right: 56.5%;
 }
 
 .island_popova {
-    position: fixed;
-    top: 70.5%;
-    right: 86.5%;
+    position: absolute;
+    top: 70%;
+    right: 94%;
 }
 
 .island_reineke {
-    position: fixed;
-    top: 82%;
-    right: 87%;
+    position: absolute;
+    top: 83%;
+    right: 94%;
 }
 
 
 
 .text_location_1 {
-    position: fixed;
+    position: absolute;
     left: 50.5%;
-    top: 50%;
+    top: 48%;
 }
 
 .text_location_2 {
-    position: fixed;
-    left: 44.5%;
-    top: 33.5%;
+    position: absolute;
+    left: 43%;
+    top: 27%;
+    min-width: 200px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .text_location_3 {
-    position: fixed;
-    left: 37.5%;
-    top: 46.5%;
+    position: absolute;
+    left: 35.5%;
+    top: 40.5%;
+    min-width: 235px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .text_location_4 {
-    position: fixed;
-    left: 35%;
-    top: 63%;
+    position: absolute;
+    left: 32.5%;
+    top: 62%;
+    min-width: 280px;
 }
 
 .text_location_5 {
-    position: fixed;
-    left: 31.7%;
+    position: absolute;
+    left: 28%;
     top: 69%;
+    min-width: 280px;
 }
 .text_location_6 {
-    position: fixed;
-    left: 45%;
-    top: 14.6%;
+    position: absolute;
+    left: 44%;
+    top: 1.6%;
+    min-width: 152px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cluster_block {
-    z-index: 3;
     cursor: pointer;
     flex: none;
     order: 0;
@@ -660,31 +707,39 @@ a {
     /* border: 1px solid #FFFFFF; */
     /* border-radius: 100px; */
     z-index: 23;
-    padding: 0.43vw 0.87vw;
     /* width: 12.50vw; */
     /* max-width: 251px; */
     /* height: 56px; */
-
-
+    transition: ease-in-out 200ms;
 }
 
+.cluster_block:hover {
+    opacity: 0.8;
+}
+
+.cluster_block_content {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
 
 .cluster_block_text {
     /* position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%); */
-    font-family: 'Graphik LC Web';
+    font-family: 'Graphik LC Web', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 0.7vw;
-    line-height: 0.7vw;
+    font-size: 1rem;
+    line-height: 100%;
     color: #FFFFFF;
     text-align: center;
     flex: none;
     order: 0;
     flex-grow: 0;
     z-index: 3;
+    margin: 8px;
     /* width: 11.41vw; */
 }
 
@@ -693,8 +748,9 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 7.87vw;
-    min-height: 2.08vw;
+    max-width: 152px;
+    width: 100%;
+    min-height: 40px;
     text-align: center;
     vertical-align: middle;
     z-index: 4;
@@ -705,19 +761,19 @@ a {
 }
 
 .transport_marker_location_1 {
-    position: fixed;
-    left: 25.3%;
-    top: 31.7%;
+    position: absolute;
+    left: 21%;
+    top: 24%;
 }
 
 .transport_marker_location_2 {
-    position: fixed;
-    left: 22.7%;
-    top: 36%;
+    position: absolute;
+    left: 17.5%;
+    top: 29.5%;
 }
 
 .transport_marker_location_3 {
-    position: fixed;
+    position: absolute;
     left: 2.5%;
     top: 51%;
 }
@@ -775,18 +831,17 @@ a {
     width: 35.57vw;
     /* height: 7.5vw; */
     color: white;
-    position: fixed;
+    position: absolute;
     right: -11.5%;
     bottom: 8%;
     z-index: 2;
 }
 
 .transport_point_1 {
-    position: fixed;
+    position: absolute;
     display: inline-block;
     border-radius: 50%;
     border: 0.15vw solid #FFFFFF;
-    z-index: 2;
     width: 0.52vw;
     height: 0.52vw;
     z-index: 5;
@@ -796,12 +851,11 @@ a {
 }
 
 .transport_point_2 {
-    position: fixed;
+    position: absolute;
 
     display: inline-block;
     border-radius: 50%;
     border: 0.15vw solid #FFFFFF;
-    z-index: 2;
     width: 0.52vw;
     height: 0.52vw;
     z-index: 5;
@@ -811,12 +865,11 @@ a {
 }
 
 .transport_point_3 {
-    position: fixed;
+    position: absolute;
 
     display: inline-block;
     border-radius: 50%;
     border: 0.15vw solid #FFFFFF;
-    z-index: 2;
     width: 0.52vw;
     height: 0.52vw;
     z-index: 5;
@@ -824,52 +877,55 @@ a {
     top: 57%;
 }
 .port_text{
-    font-family: 'Graphik LC Web';
+    font-family: 'Graphik LC Web', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 0.7vw;
-    line-height: 0.7vw;
+    font-size: 1rem;
+    line-height: 100%;
     text-align: center;
     color: #FFFFFF;
 }
 .port_location_1{
     position: absolute;
-    top: 28%;
-    left: 51.7%;
+    top: 19%;
+    left: 51.6%;
     z-index: 2;
 }
+
 .port_location_2{
     position: absolute;
-    top: 48.3%;
+    top: 43%;
     left: 59%;
     z-index: 2;
 }
 
 .invest_text{
-    font-family: 'Graphik LC Web';
+    font-family: 'Graphik LC Web', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 0.63vw;
-    line-height: 0.63vw;    
+    font-size: 0.75rem;
+    line-height: 100%;
     color: #FFFFFF;
     text-align: start;
+    text-shadow: 0 0 4px #000000;
 }
+
 .invest_location_1{
     position: absolute;
-    top: 79%;
-    left: 16.3%;
+    top: 80.5%;
+    left: 9.7%;
     z-index: 2;
 }
 .invest_location_2{
     position: absolute;
-    top: 72.3%;
-    left: 20.5%;
+    top: 72%;
+    left: 15%;
     z-index: 2;
 }
 .invest_location_3{
     position: absolute;
-    top: 41.3%;
-    left: 23.5%;
+    top: 36%;
+    left: 18.75%;
     z-index: 2;
 }
 
@@ -879,8 +935,8 @@ a {
     flex-direction: row;
     justify-content: space-between;
     z-index: 10;
-    bottom: 8.7%;
-    right: 12%;
+    bottom: 8%;
+    right: 5%;
     min-width: 30.99vw;
     /* width: auto; */
 }
@@ -891,11 +947,11 @@ a {
 }
 
 .gerb_text{
-    font-family: 'Graphik LC Web';
+    font-family: 'Graphik LC Web', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 0.63vw;
-    line-height: 0.63vw;
+    font-size: 0.75rem;
+    line-height: 100%;
     text-align: center;
     color: #FFFFFF;
     margin-top: 12px;

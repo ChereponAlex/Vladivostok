@@ -101,7 +101,7 @@
     background: #010F1F;
     /* background: url('../images/test_logisic_picture.jpg') no-repeat; */
 
-    /* background-size: 100% 100%; */
+    background-size: 100% 100%;
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -112,9 +112,9 @@
     background: url('../images/test_logisic_picture.jpg') no-repeat;
 
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
 }
 .link_svg{
     /* width: 100%;
