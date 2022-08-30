@@ -3,7 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import encodeURI from "../utils/encodeURI";
 import MapBoxContainer from "../components/MapBoxContainer";
-import BackgroundSVG from "../images/background_mainpage.svg";
+// import {ReactComponent as BackgroundSVG} from "../images/background_mainpage.svg";
+import { ReactComponent as BackgroundSVG } from '../images/background_mainpage.svg';
 import BackgroundMap from "../images/background_high_quality.jpg";
 
 import dataClusters from "../helper/dataClusters";
@@ -31,12 +32,13 @@ const MainPage = () => {
             className={"background__image"}
             src={BackgroundMap}
           />
-          <img
+          {/* <img
             alt={""}
             src={BackgroundSVG}
             className="background_svg"
             onClick={(e) => changeRoute(e.target.id)}
-          />
+          /> */}
+          <BackgroundSVG className="background_svg" onClick={(e) => changeRoute(e.target.id)} />
           <div className={`texts`}>
             <div className="text_sea amur_bay_position">Амурский залив</div>
             <div className="text_sea ussuri_bay_position">
