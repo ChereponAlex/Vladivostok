@@ -45,7 +45,7 @@
 }
 
 .main-page-background {
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,7 +65,11 @@
 }
 
 .background {
-    background: url('/src/images/background.png') no-repeat center;
+    /* background: url('/src/images/background.png') no-repeat center; */
+    background: url('/src/images/background_high_quality.jpg') no-repeat center;
+    /* background: url('/src/images/main_background.jpg') no-repeat center; */
+
+
     background-size: 100% 100%;
     position: absolute;
     width: 84%;
@@ -79,6 +83,10 @@
     height: 84%;
     z-index: 1;
 }
+
+/* .container_background_svg{
+    object-fit: contain;
+} */
 
 .sign_russkiy {
     position: absolute;
