@@ -5,7 +5,7 @@ import ItemCluster from './pages/clusters/ItemCluster';
 import { ProjectsPage } from './pages/projects/ProjectsPage';
 
 import ItemLogisticProject from './pages/projects/ItemLogisticProject';
-import ItemHistoricalProject from './pages/itemHistoricalProject';
+import ItemHistoricalProject from './pages/projects/itemHistoricalProject';
 import mainpage from '../src/styles/mainpage.css';
 // import cluster_1 from '../src/styles/cluster_1.css';
 import cluster_1_grid from '../src/styles/cluster_1_grid.css';
@@ -15,10 +15,7 @@ import cluster_4 from '../src/styles/cluster_4.css';
 import cluster_5 from '../src/styles/cluster_5.css';
 import cluster_6 from '../src/styles/cluster_6.css';
 
-
-
 import historical_project_1 from '../src/styles/historical_project_1.css'
-
 
 import project_4 from '../src/styles/project_4.css'
 import project_1 from '../src/styles/project_1.css'
@@ -26,10 +23,10 @@ import project_1 from '../src/styles/project_1.css'
 import React, { useState, useEffect } from 'react';
 import ClipLoader from "react-spinners/ClipLoader";
 
-import '../src/fonts/Graphik-Black-Web.ttf';
-import '../src/fonts/Graphik-Bold-Web.ttf';
-import '../src/fonts/Graphik-Medium-Web.ttf';
-import '../src/fonts/Graphik-Regular-Web.ttf';
+// import '../src/fonts/Graphik-Black-Web.ttf';
+// import '../src/fonts/Graphik-Bold-Web.ttf';
+// import '../src/fonts/Graphik-Medium-Web.ttf';
+// import '../src/fonts/Graphik-Regular-Web.ttf';
 
 
 function App() {
