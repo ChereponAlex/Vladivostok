@@ -14,81 +14,88 @@ const ItemLogisticProject = () => {
 
     switch (projectID) {
         case '1':
-            return /* 'ТОР Большой камень' */ (
-                <div className='background_test_sputnik'>
-                    
+            return (
+                <div className='background_project_1'>
+                    <div className='btn_back_container' >
+                        <div className='btn_back_cluster' onClick={() => navigate('/cluster/1')}>
+                            <Back_btn className='header_icons' />
+                        </div>
+                        <div className='btn_back_cluster' onClick={() => navigate('/')} style={{ marginLeft: '18px' }} >
+                            <Back_home className='header_icons' />
+                        </div>
+                    </div>
                 </div>
             )
             break;
         case '2':
-            return 'ССК Звезда'
+            return (
+                <div className='background_project_2'>
+                    <div className='btn_back_container' >
+                        <div className='btn_back_cluster' onClick={() => navigate('/cluster/1')}>
+                            <Back_btn className='header_icons' />
+                        </div>
+                        <div className='btn_back_cluster' onClick={() => navigate('/')} style={{ marginLeft: '18px' }} >
+                            <Back_home className='header_icons' />
+                        </div>
+                    </div>
+                </div>
+            )
             break;
         case '3':
-            return 'Судохол'
+            return (
+                <div className='background_project_3'>
+                    <div className='btn_back_container' >
+                        <div className='btn_back_cluster' onClick={() => navigate('/cluster/1')}>
+                            <Back_btn className='header_icons' />
+                        </div>
+                        <div className='btn_back_cluster' onClick={() => navigate('/')} style={{ marginLeft: '18px' }} >
+                            <Back_home className='header_icons' />
+                        </div>
+                    </div>
+                </div>
+            )
             break;
         case '4':
             return (
-
-                <div className='logistic_project_4_page'>
-
-                    <header className='header_logistic_project_4'>
-                        <div className='header_btn_back_container' >
-                            <div className='header_btn_back_cluster' onClick={() => navigate('/cluster/1')}>
-                                <Back_btn className='header_icons' />
-                                <div className='header_btn_back_description'>Назад к кластеру</div>
-                            </div>
-                            <div className='header_btn_back_cluster' onClick={() => navigate('/')} style={{ marginLeft: '6.04vw' }}  >
-                                <Back_home className='header_icons' />
-                                <div className='header_btn_back_description'>На главную</div>
-                            </div>
-
+                <div className='background_project_4'>
+                    <div className='btn_back_container' >
+                        <div className='btn_back_cluster' onClick={() => navigate('/cluster/1')}>
+                            <Back_btn className='header_icons' />
                         </div>
-                    </header>
-                    <main className='main_logistic_project_4'>
-                        <section className='section_left_logistic_project_4'>
-                            <div className='description_page_logistic_project_4'>
-                                Общественно-деловой центр
-                                в городе Артем
-                            </div>
-                            <div className='_description_page_logistic_project_4'>
-                                шаблон карточки проекта. на фон ставим картинку из круга. делаем заголовок, под ним описание. справа делаем место под стоимость, параметры это драфтово так давай соберем такую карточку и тогда правда утвердим все 3 уровня по шаблонам, потом будем тогда
-                            </div>
-                        </section>
-                        <section className='section_right_logistic_project_4'>
-                            <div className='block_1_right_section'>
-                                <div className='descriprion_card_project'>1,6 млрд руб.</div>
-                                <div className='card_project'>шаблон карточки проекта. на фон ставим картинку</div>
-                            </div>
-
-                            <div className='block_1_right_section'>
-                                <div className='descriprion_card_project'>12 тыс. м2</div>
-                                <div className='card_project'>шаблон карточки проекта. на фон ставим картинку</div>
-                            </div>
-
-                            <div className='block_1_right_section'>
-                                <div className='descriprion_card_project'>1,6 млрд руб.</div>
-                                <div className='card_project'>шаблон карточки проекта. на фон ставим картинку</div>
-                            </div>
-
-                        </section>
-
-
-                    </main>
-
+                        <div className='btn_back_cluster' onClick={() => navigate('/')} style={{ marginLeft: '18px' }} >
+                            <Back_home className='header_icons' />
+                        </div>
+                    </div>
                 </div>
             )
             break;
         case '5':
-            return 'Проект "Сухой порт"'
+            return (
+                <div className='background_project_5'>
+                    <div className='btn_back_container' >
+                        <div className='btn_back_cluster' onClick={() => navigate('/cluster/1')}>
+                            <Back_btn className='header_icons' />
+                        </div>
+                        <div className='btn_back_cluster' onClick={() => navigate('/')} style={{ marginLeft: '18px' }} >
+                            <Back_home className='header_icons' />
+                        </div>
+                    </div>
+                </div>
+            )
             break;
         case '6':
-            return 'ТОР Надежденский'
-            break;
-        case '7':
-            return 'Спутник 1'
-            break;
-        case '8':
-            return 'Центр морских финансов'
+            return (
+                <div className='background_project_6'>
+                    <div className='btn_back_container' >
+                        <div className='btn_back_cluster' onClick={() => navigate('/cluster/1')}>
+                            <Back_btn className='header_icons' />
+                        </div>
+                        <div className='btn_back_cluster' onClick={() => navigate('/')} style={{ marginLeft: '18px' }} >
+                            <Back_home className='header_icons' />
+                        </div>
+                    </div>
+                </div>
+            )
             break;
 
         default:
