@@ -78,50 +78,13 @@ const ItemCluster = () => {
             {
                 id == '1' ?
                     <>
-                        <div className="background_cluster_page_test">
-                            <Test_sputnik_project_1_picture className='link_svg' onClick={() => navigate('/cluster/1/project/1')} />
-                            {/* <header className='header_cluster_1'>
-                                <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
-                                    <Back_btn className='header_cluster_logistic_btn_back' />
-                                    <div className='header_cluster_logistic_description_btn'>На главную</div>
-                                </div>
-                                <div className='header_description_cluster_logistic'>Логистически-производственный пояс</div>
-                            </header>
-
-                            <main className='main_container'>
-
-                                <section className='section' >
-                                    {dataLogisticProject.map((item) => {
-
-                                        if (item.id <= 4) {
-                                            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
-                                        } else return null
-                                    })}
-                                </section>
-
-                                <section className='section_center'>
-                                    {dataLogisticProject.map(marker => {
-                                        return (
-                                            <div key={marker.id}>
-                                                <div className={`marker_map_logistic position_marker_${marker.id}`} onClick={() => navigate(`/cluster/1/project/${marker.id}`)}>
-                                                    <div className={`number_marker`}>{marker.id}</div>
-                                                </div>
-                                                <div className={`description_marker position_description_marker_${marker.id}`} onClick={() => navigate(`/cluster/1/project/${marker.id}`)}>{marker.title}</div>
-                                            </div>
-
-                                        )
-                                    })}
-                                    <Map className='centered-map' />
-                                </section>
-
-                                <section className='section'>
-                                    {dataLogisticProject.map((item) => {
-                                        if (item.id > 4) {
-                                            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
-                                        } else return null
-                                    })}
-                                </section>
-                            </main> */}
+                        <div className="background_cluster_1_page">
+                            {[1, 2, 3, 4, 5, 6].map((button, index) => {
+                                return <button className={`btn_logistic logistic_project_${index + 1}`} onClick={() => navigate(`/cluster/1/project/${index + 1}`)}></button>
+                            })}
+                            <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
+                                <Back_btn className='header_cluster_logistic_btn_back' />                                
+                            </div>
                         </div>
                     </>
                     : null

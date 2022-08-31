@@ -1,0 +1,63 @@
+.btn_back_container{
+    position: absolute;
+    bottom: 2%;
+    left: 3.3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* cursor: pointer; */
+    /* width: 15vw; */
+    /* padding-top: 2.24vw;
+    padding-left: 1.04vw;
+    padding-bottom: 2.24vw; */
+}
+
+.background_project_1{
+    background: url('../images/cluster_1/project_logistic/project_1.jpg') no-repeat;
+
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.btn_back_cluster {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.background_project_2{
+    background: url('../images/cluster_1/project_logistic/project_2.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_project_3{
+    background: url('../images/cluster_1/project_logistic/project_3.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_project_4{
+    background: url('../images/cluster_1/project_logistic/project_4.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_project_5{
+    background: url('../images/cluster_1/project_logistic/project_5.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_project_6{
+    background: url('../images/cluster_1/project_logistic/project_6.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
