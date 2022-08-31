@@ -81,7 +81,7 @@ const ItemCluster = () => {
                         <div className="background_cluster_1_page">
                             {[1, 2, 3, 4, 5, 6].map((button, index) => {
                                 return (
-                                    <>
+                                    <div key={index}>
                                         <button
                                             className={`btn_ logistic_project_${index + 1}`}
                                             onClick={() => navigate(`/cluster/1/project/${index + 1}`)}
@@ -90,7 +90,7 @@ const ItemCluster = () => {
                                             className={`btn_marker_logistic logistic_marker_project_${index + 1}`}
                                             onClick={() => navigate(`/cluster/1/project/${index + 1}`)}
                                         />
-                                    </>
+                                    </div>
                                 )
                             })}
                             <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
