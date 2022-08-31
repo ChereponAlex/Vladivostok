@@ -131,6 +131,8 @@
 
 <circle cx="275" cy="840" r="2.9" transform="rotate(90 275 840)" fill="white"/>
 <line x1="312.909" y1="846.492" x2="274.909" y2="839.492" stroke="white"/>
+    <line xmlns="http://www.w3.org/2000/svg" x1="259.482" y1="817.132" x2="242.482" y2="879.132" stroke="white"/>
+    <line xmlns="http://www.w3.org/2000/svg" x1="226.921" y1="887.494" x2="176.921" y2="879.494" stroke="white"/>
 <!-- Елена -->
 <circle cx="437" cy="528" r="3.5" transform="rotate(-90 437 528)" fill="white"/>
 <line x1="308.172" y1="480.531" x2="437.672" y2="528.031" stroke="white"/>

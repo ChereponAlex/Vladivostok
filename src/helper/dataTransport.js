@@ -6,7 +6,7 @@ import { ReactComponent as Icon_3 } from "../images/transport_icon_3.svg";
 const dataTransport = [
   {
     id: 1,
-    title: <p>Легкое&nbsp;метро</p>,
+    title: <>Легкое&nbsp;метро</>,
     color: "rgba(137, 60, 52, 0.85)",
     Icon: Icon_1,
     point: (

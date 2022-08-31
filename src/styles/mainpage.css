@@ -581,7 +581,7 @@ a {
 .big_stone_position {
     position: absolute;
     top: 25%;
-    right: 23%;
+    right: 24%;
 }
 
 /* .artem_position {
@@ -912,8 +912,8 @@ a {
 
 .invest_location_1{
     position: absolute;
-    top: 80.5%;
-    left: 9.7%;
+    top: 81.7%;
+    left: 12.1%;
     z-index: 2;
 }
 .invest_location_2{
@@ -937,7 +937,8 @@ a {
     z-index: 10;
     bottom: 8%;
     right: 5%;
-    min-width: 30.99vw;
+    width: 100%;
+    max-width: 600px;
     /* width: auto; */
 }
 .container_gerbs_item{

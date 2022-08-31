@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import encodeURI from "../utils/encodeURI";
 import MapBoxContainer from "../components/MapBoxContainer";
 // import {ReactComponent as BackgroundSVG} from "../images/background_mainpage.svg";
-import { ReactComponent as BackgroundSVG } from '../images/background_mainpage.svg';
+import { ReactComponent as BackgroundSVG } from "../images/background_mainpage.svg";
 import BackgroundMap from "../images/background_high_quality.jpg";
 
 import dataClusters from "../helper/dataClusters";
@@ -38,16 +38,17 @@ const MainPage = () => {
             className="background_svg"
             onClick={(e) => changeRoute(e.target.id)}
           /> */}
-          <BackgroundSVG className="background_svg" onClick={(e) => changeRoute(e.target.id)} />
+          <BackgroundSVG
+            className="background_svg"
+            onClick={(e) => changeRoute(e.target.id)}
+          />
           <div className={`texts`}>
             <div className="text_sea amur_bay_position">Амурский залив</div>
             <div className="text_sea ussuri_bay_position">
               Уссурийский залив
             </div>
 
-            <div className="text_city big_stone_position">
-              ТОР Большой камень
-            </div>
+            <div className="text_city big_stone_position">Большой камень</div>
             {/* <div className='text_city artem_position'>г. Артем</div> */}
             <div className="text_city vladivostok_position">г. Владивосток</div>
             <div className="text_city island_russian_position">о. Русский</div>
@@ -86,11 +87,13 @@ const MainPage = () => {
             </div>
 
             {dataInvest.map(({ id, title }) => {
-              return (
-                <p key={id} className={`invest_text invest_location_${id}`}>
-                  {title}
-                </p>
-              );
+              if (id && title) {
+                return (
+                  <p key={id} className={`invest_text invest_location_${id}`}>
+                    {title}
+                  </p>
+                );
+              }
             })}
 
             {dataPorts.map(({ id, title }) => {
