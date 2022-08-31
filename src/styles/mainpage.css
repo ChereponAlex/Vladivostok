@@ -70,9 +70,6 @@
 .main-page-container {
     aspect-ratio: 16 / 9;
     width: 100%;
-    max-width: 1620px;
-    max-height: 910px;
-    /* overflow: auto; */
     margin: 0 0 50px;
     display: flex;
     flex-direction: column;
@@ -86,7 +83,6 @@
     justify-content: center;
     position: relative;
     width: 98%;
-    max-width: 1620px;
     aspect-ratio: 16 / 9;
 }
 
