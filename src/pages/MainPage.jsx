@@ -56,7 +56,7 @@ const MainPage = () => {
               Международный аэропорт <br /> Владивосток им. В.К. Арсеньева
             </div>
             <div className="text_city tor_nadeschdin">ТОР Надеждинская</div>
-            <div className="text_city sanding">мыс Песчаный</div>
+            {/*<div className="text_city sanding">мыс Песчаный</div>*/}
             <div className="text_city bridge_elena">
               Новый мост <br /> на о. Елены
             </div>
