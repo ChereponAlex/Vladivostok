@@ -1,0 +1,913 @@
+/* ==========Logistic_cluster============ */
+.btn_back_container{
+    position: absolute;
+    bottom: 2%;
+    left: 3.3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* cursor: pointer; */
+    /* width: 15vw; */
+    /* padding-top: 2.24vw;
+    padding-left: 1.04vw;
+    padding-bottom: 2.24vw; */
+}
+
+.btn_back_cluster {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.background_project_1{
+    background: url('../images/cluster_1/project_logistic/project_1.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.background_project_2{
+    background: url('../images/cluster_1/project_logistic/project_2.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_project_3{
+    background: url('../images/cluster_1/project_logistic/project_3.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_project_4{
+    background: url('../images/cluster_1/project_logistic/project_4.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_project_5{
+    background: url('../images/cluster_1/project_logistic/project_5.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_project_6{
+    background: url('../images/cluster_1/project_logistic/project_6.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_cluster_1_page {  
+    background: url('../images/cluster_1/logistic_cluster.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+.btn_{
+    cursor: pointer;
+    opacity: 0;
+    width: 19%;
+    height: 22%;
+}
+
+.logistic_project_1{
+    position: absolute;
+    top: 13%;
+    left: 3.3%;
+
+}
+.logistic_project_2{    
+    position: absolute;
+    top: 37.7%;
+    left: 3.3%;
+    width: 19%;
+    height: 25%;
+    }
+.logistic_project_3{    
+    position: absolute;
+    top: 64%;
+    left: 3.3%;
+}
+.logistic_project_4{ 
+    position: absolute;
+    top: 13%;
+    left: 77.8%;
+}
+.logistic_project_5{    
+    position: absolute;
+    top: 38%;
+    left: 77.8%;   
+    width: 19%;
+    height: 25%;
+}
+.logistic_project_6{    
+    position: absolute;
+    top: 64%;
+    left: 77.7%;   
+}
+
+/* Markers */
+
+.btn_marker_logistic{
+    cursor: pointer;
+    width: 2.5%;
+    height: 7%;
+    opacity: 0;
+}
+
+.logistic_marker_project_1{
+    position: absolute;
+    top: 30.5%;
+    left: 23.7%;
+}
+.logistic_marker_project_2{
+    position: absolute;
+    top: 29%;
+    left: 26.4%;
+}
+.logistic_marker_project_3{
+    position: absolute;
+    top: 29.5%;
+    left: 29%;
+}
+.logistic_marker_project_4{
+    position: absolute;
+    top: 26.7%;
+    left: 57.4%;
+}
+.logistic_marker_project_5{
+    position: absolute;
+    top: 37.5%;
+    left: 63.1%;
+}
+.logistic_marker_project_6{
+    position: absolute;
+    top: 40.8%;
+    left: 65.1%;
+}
+
+
+
+
+/* =================Green_cluster========================= */
+.btn_marker_green{
+    cursor: pointer;
+    width: 2.5%;
+    height: 7%;
+    opacity: 0;
+}
+
+.background_cluster_2_page {  
+    background: url('../images/cluster_2/green_cluster.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.background_gree_project_1{
+    background: url('../images/cluster_2/project_green/project_1.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.background_gree_project_2{
+    background: url('../images/cluster_2/project_green/project_2.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_gree_project_3{
+    background: url('../images/cluster_2/project_green/project_3.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_gree_project_4{
+    background: url('../images/cluster_2/project_green/project_4.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.green_project_1{
+    position: absolute;
+    top: 13%;
+    left: 3.3%;
+
+}
+.green_project_2{    
+    position: absolute;
+    top: 37.7%;
+    left: 3.3%;
+    width: 19%;
+    height: 25%;
+    }
+.green_project_3{    
+    position: absolute;
+    top: 13%;
+    left: 77.7%;
+}
+.green_project_4{ 
+    position: absolute;
+    top: 40.7%;
+    left: 77.7%;
+}
+
+/* Markers */
+
+.green_marker_project_1{
+    position: absolute;
+    top: 31.9%;
+    left: 56.5%;
+}
+.green_marker_project_2{
+    position: absolute;
+    top: 38.5%;
+    left: 45.4%;
+}
+.green_marker_project_3{
+    position: absolute;
+    top: 58.5%;
+    left: 34.3%;
+}
+.green_marker_project_4{
+    position: absolute;
+    top: 59.5%;
+    left: 38.3%;
+}
+
+
+/* ============Historical_cluster============ */
+
+.btn_marker_historical{
+    cursor: pointer;
+    width: 2.5%;
+    height: 7%;
+    opacity: 0;
+}
+
+.background_cluster_3_page {  
+    background: url('../images/cluster_3/historical_cluster.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.background_historical_project_1{
+    background: url('../images/cluster_3/project_historical/project_1.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.background_historical_project_2{
+    background: url('../images/cluster_3/project_historical/project_2.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_historical_project_3{
+    background: url('../images/cluster_3/project_historical/project_3.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_historical_project_4{
+    background: url('../images/cluster_3/project_historical/project_4.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+.historical_project_1{
+    position: absolute;
+    top: 13%;
+    left: 3.3%;
+    width: 19%;
+    height: 25.5%;
+}
+.historical_project_2{    
+    position: absolute;
+    top: 40.7%;
+    left: 3.3%;
+    width: 19%;
+    height: 22%;
+    }
+.historical_project_3{    
+    position: absolute;
+    top: 65.7%;
+    left: 3.3%;
+    width: 19%;
+    height: 24.7%;
+}
+.historical_project_4{ 
+    position: absolute;
+    top: 13%;
+    left: 77.7%;
+    width: 19%;
+    height: 25%;
+}
+.historical_project_5{ 
+    position: absolute;
+    top: 37.7%;
+    left: 77.7%;
+}
+
+/* Markers */
+
+.historical_marker_project_1{
+    position: absolute;
+    top: 20.9%;
+    left: 48.3%;
+}
+.historical_marker_project_2{
+    position: absolute;
+    top: 28.8%;
+    left: 49.8%;
+}
+.historical_marker_project_3{
+    position: absolute;
+    top: 34.2%;
+    left: 46.1%;
+}
+.historical_marker_project_4{
+    position: absolute;
+    top: 37.3%;
+    left: 48.5%;
+}
+.historical_marker_project_5{
+    position: absolute;
+    top: 28.7%;
+    left: 61%;
+}
+
+
+
+/* =============Scientific_cluster================ */
+.btn_marker_scientific{
+    cursor: pointer;
+    width: 2.5%;
+    height: 7%;
+    opacity: 0;
+}
+
+.background_cluster_4_page {  
+    background: url('../images/cluster_4/scientific_cluster.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.background_scientific_project_1{
+    background: url('../images/cluster_4/project_scientific/project_1.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.background_scientific_project_2{
+    background: url('../images/cluster_4/project_scientific/project_2.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_scientific_project_3{
+    background: url('../images/cluster_4/project_scientific/project_3.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_scientific_project_4{
+    background: url('../images/cluster_4/project_scientific/project_4.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_scientific_project_5{
+    background: url('../images/cluster_4/project_scientific/project_5.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.scientific_project_1{
+    position: absolute;
+    top: 13%;
+    left: 3.3%;
+
+}
+.scientific_project_2{    
+    position: absolute;
+    top: 37.7%;
+    left: 3.3%;
+    width: 19%;
+    height: 22%;
+    }
+.scientific_project_3{    
+    position: absolute;
+    top: 63%;
+    left: 3.3%;
+    width: 19%;
+    height: 24.5%;
+}
+.scientific_project_4{ 
+    position: absolute;
+    top: 13%;
+    left: 77.7%;
+}
+.scientific_project_5{ 
+    position: absolute;
+    top: 37.7%;
+    left: 77.7%;
+}
+
+/* Markers */
+
+.scientific_marker_project_1{
+    position: absolute;
+    top: 14.9%;
+    left: 53.3%;
+}
+.scientific_marker_project_2{
+    position: absolute;
+    top: 23.3%;
+    left: 51.8%;
+}
+.scientific_marker_project_3{
+    position: absolute;
+    top: 27.3%;
+    left: 55.3%;
+}
+.scientific_marker_project_4{
+    position: absolute;
+    top: 31.3%;
+    left: 57.7%;
+}
+.scientific_marker_project_5{
+    position: absolute;
+    top: 28.7%;
+    left: 61%;
+}
+
+
+/* ============Touristic_cluster============== */
+
+
+.btn_marker_touristic{
+    cursor: pointer;
+    width: 1.8%;
+    height: 4.7%;
+    opacity: 0;
+}
+
+.background_cluster_5_page {  
+    background: url('../images/cluster_5/touristic_cluster.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.background_touristic_project_1{
+    background: url('../images/cluster_5/project_touristic/project_1.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* .background_touristic_project_2{
+    background: url('../images/cluster_5/project_touristic/project_2.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+} */
+.background_touristic_project_3{
+    background: url('../images/cluster_5/project_touristic/project_3.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_touristic_project_4{
+    background: url('../images/cluster_5/project_touristic/project_4.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_touristic_project_5{
+    background: url('../images/cluster_5/project_touristic/project_5.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_touristic_project_6{
+    background: url('../images/cluster_5/project_touristic/project_6.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_touristic_project_7{
+    background: url('../images/cluster_5/project_touristic/project_7.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_touristic_project_8{
+    background: url('../images/cluster_5/project_touristic/project_8.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_touristic_project_9{
+    background: url('../images/cluster_5/project_touristic/project_9.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_touristic_project_10{
+    background: url('../images/cluster_5/project_touristic/project_10.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_touristic_project_11{
+    background: url('../images/cluster_5/project_touristic/project_11.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_touristic_project_12{
+    background: url('../images/cluster_5/project_touristic/project_12.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_touristic_project_13{
+    background: url('../images/cluster_5/project_touristic/project_13.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_touristic_project_14{
+    background: url('../images/cluster_5/project_touristic/project_14.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_touristic_project_15{
+    background: url('../images/cluster_5/project_touristic/project_15.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_touristic_project_16{
+    background: url('../images/cluster_5/project_touristic/project_16.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.background_touristic_project_17{
+    background: url('../images/cluster_5/project_touristic/project_17.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+.touristic_project_1{
+    position: absolute;
+    top: 13%;
+    left: 3.3%;
+    width: 19%;
+    height: 24.5%;
+}
+.touristic_project_2{    
+    position: absolute;
+    top: 40.7%;
+    left: 3.3%;
+    width: 19%;
+    height: 22%;
+    }
+.touristic_project_3{    
+    position: absolute;
+    top: 13.5%;
+    left: 77.7%;
+    width: 19%;
+    height: 24.5%;
+}
+.touristic_project_4{ 
+    position: absolute;
+    top: 41%;
+    left: 77.7%;
+    width: 19%;
+    height: 22%;
+}
+.touristic_project_5{ 
+    position: absolute;
+    /* top: 37.7%;
+    left: 77.7%; */
+    z-index: -20
+}
+.touristic_project_6{ 
+    position: absolute;
+    /* top: 37.7%;
+    left: 77.7%; */
+    z-index: -20
+}
+.touristic_project_7{ 
+    position: absolute;
+    /* top: 37.7%;
+    left: 77.7%; */
+    z-index: -20
+}
+.touristic_project_8{ 
+    position: absolute;
+    /* top: 37.7%;
+    left: 77.7%; */
+    z-index: -20
+}
+.touristic_project_9{ 
+    position: absolute;
+    /* top: 37.7%;
+    left: 77.7%; */
+    z-index: -20
+}
+.touristic_project_10{ 
+    position: absolute;
+    /* top: 37.7%;
+    left: 77.7%; */
+    z-index: -20
+}
+.touristic_project_11{ 
+    position: absolute;
+    /* top: 37.7%;
+    left: 77.7%; */
+    z-index: -20
+}
+.touristic_project_12{ 
+    position: absolute;
+    /* top: 37.7%;
+    left: 77.7%; */
+    z-index: -20
+}
+.touristic_project_13{ 
+    position: absolute;
+    /* top: 37.7%;
+    left: 77.7%; */
+    z-index: -20
+}
+.touristic_project_14{ 
+    position: absolute;
+    /* top: 37.7%;
+    left: 77.7%; */
+    z-index: -20
+}
+.touristic_project_15{ 
+    position: absolute;
+    /* top: 37.7%;
+    left: 77.7%; */
+    z-index: -20
+}
+.touristic_project_16{ 
+    position: absolute;
+    /* top: 37.7%;
+    left: 77.7%; */
+    z-index: -20
+    
+}
+.touristic_project_17{ 
+    position: absolute;
+    /* top: 37.7%;
+    left: 77.7%; */
+    z-index: -20
+    
+}
+
+/* Markers */
+
+.touristic_marker_project_1{
+    position: absolute;
+    top: 15.9%;
+    left: 54.5%;
+}
+.touristic_marker_project_2{
+    position: absolute;
+    top: 39.8%;
+    left: 64.8%;
+}
+.touristic_marker_project_3{
+    position: absolute;
+    top: 43.3%;
+    left: 69.9%;
+}
+.touristic_marker_project_4{
+    position: absolute;
+    top: 58%;
+    left: 65.2%;
+}
+.touristic_marker_project_5{
+    position: absolute;
+    top: 14.4%;
+    left: 42.2%;
+}
+.touristic_marker_project_6{
+    position: absolute;
+    top: 19.7%;
+    left: 53.5%;
+}
+.touristic_marker_project_7{
+    position: absolute;
+    top: 17.5%;
+    left: 56.1%;
+}
+.touristic_marker_project_8{
+    position: absolute;
+    top: 27.2%;
+    left: 57.9%;
+}
+.touristic_marker_project_9{
+    position: absolute;
+    top: 39.5%;
+    left: 59.2%;
+}
+.touristic_marker_project_10{
+    position: absolute;
+    top: 38.7%;
+    left: 61.6%;
+}
+.touristic_marker_project_11{
+    position: absolute;
+    top: 35.3%;
+    left: 62.7%;
+}
+.touristic_marker_project_12{
+    position: absolute;
+    top: 40%;
+    left: 68.5%;
+}
+.touristic_marker_project_13{
+    position: absolute;
+    top: 49%;
+    left: 65.2%;
+}
+.touristic_marker_project_14{
+    position: absolute;
+    top: 48.7%;
+    left: 69.5%;
+}
+.touristic_marker_project_15{
+    position: absolute;
+    top: 58.6%;
+    left: 68.7%;
+}
+.touristic_marker_project_16{
+    position: absolute;
+    top: 66.3%;
+    left: 65.9%;
+}
+.touristic_marker_project_17{
+    position: absolute;
+    top: 50.2%;
+    left: 53.7%;
+}
+
+
+/* ==========Artem_cluster=========== */
+
+.btn_marker_artem{
+    cursor: pointer;
+    width: 2.5%;
+    height: 7%;
+    opacity: 0;
+}
+
+.background_cluster_6_page {  
+    background: url('../images/cluster_6/artem_cluster.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.background_artem_project_1{
+    background: url('../images/cluster_6/project_artem/project_1.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.background_artem_project_2{
+    background: url('../images/cluster_6/project_artem/project_2.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_artem_project_3{
+    background: url('../images/cluster_6/project_artem/project_3.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.background_artem_project_4{
+    background: url('../images/cluster_6/project_artem/project_4.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+.artem_project_1{
+    position: absolute;
+    top: 13%;
+    left: 3.3%;
+
+}
+.artem_project_2{    
+    position: absolute;
+    top: 37.7%;
+    left: 3.3%;
+    width: 19%;
+    height: 22%;
+    }
+.artem_project_3{    
+    position: absolute;
+    top: 13%;
+    left: 77.7%;
+    width: 19%;
+    height: 22%;
+}
+.artem_project_4{ 
+    position: absolute;
+    top: 38%;
+    left: 77.7%;
+    width: 19%;
+    height: 24.5%;
+}
+
+
+/* Markers */
+
+.artem_marker_project_1{
+    position: absolute;
+    top: 43.4%;
+    left: 34%;
+}
+.artem_marker_project_2{
+    position: absolute;
+    top: 47.2%;
+    left: 47%;
+}
+.artem_marker_project_3{
+    position: absolute;
+    top: 67.4%;
+    left: 43.3%;
+}
+.artem_marker_project_4{
+    position: absolute;
+    top: 62.2%;
+    left: 69.3%;
+}

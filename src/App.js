@@ -18,7 +18,7 @@ import cluster_6 from '../src/styles/cluster_6.css';
 import historical_project_1 from '../src/styles/historical_project_1.css'
 
 import project_4 from '../src/styles/project_4.css'
-import item_project  from '../src/styles/item_project_logistic.css'
+import global  from '../src/styles/global.css'
 
 import React, { useState, useEffect } from 'react';
 import ClipLoader from "react-spinners/ClipLoader";
