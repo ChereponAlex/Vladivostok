@@ -6,16 +6,16 @@ import { ReactComponent as Back_home } from '../../images/back_home.svg';
 
 
 
-const ItemHistoricalProject = () => {
+const ItemGreenProject = () => {
     const { projectID } = useParams();
     const navigate = useNavigate();
 
     switch (projectID) {
         case '1':
             return (
-                <div className='background_historical_project_1'>
+                <div className='background_gree_project_1'>
                     <div className='btn_back_container' >
-                        <div className='btn_back_cluster' onClick={() => navigate('/cluster/3')}>
+                        <div className='btn_back_cluster' onClick={() => navigate('/cluster/2')}>
                             <Back_btn className='header_icons' />
                         </div>
                         <div className='btn_back_cluster' onClick={() => navigate('/')} style={{ marginLeft: '18px' }} >
@@ -27,9 +27,9 @@ const ItemHistoricalProject = () => {
             break;
         case '2':
             return (
-                <div className='background_historical_project_2'>
+                <div className='background_gree_project_2'>
                     <div className='btn_back_container' >
-                        <div className='btn_back_cluster' onClick={() => navigate('/cluster/3')}>
+                        <div className='btn_back_cluster' onClick={() => navigate('/cluster/2')}>
                             <Back_btn className='header_icons' />
                         </div>
                         <div className='btn_back_cluster' onClick={() => navigate('/')} style={{ marginLeft: '18px' }} >
@@ -41,9 +41,9 @@ const ItemHistoricalProject = () => {
             break;
         case '3':
             return (
-                <div className='background_historical_project_3'>
+                <div className='background_gree_project_3'>
                     <div className='btn_back_container' >
-                        <div className='btn_back_cluster' onClick={() => navigate('/cluster/3')}>
+                        <div className='btn_back_cluster' onClick={() => navigate('/cluster/2')}>
                             <Back_btn className='header_icons' />
                         </div>
                         <div className='btn_back_cluster' onClick={() => navigate('/')} style={{ marginLeft: '18px' }} >
@@ -55,9 +55,9 @@ const ItemHistoricalProject = () => {
             break;
         case '4':
             return (
-                <div className='background_historical_project_4'>
+                <div className='background_gree_project_4'>
                     <div className='btn_back_container' >
-                        <div className='btn_back_cluster' onClick={() => navigate('/cluster/3')}>
+                        <div className='btn_back_cluster' onClick={() => navigate('/cluster/2')}>
                             <Back_btn className='header_icons' />
                         </div>
                         <div className='btn_back_cluster' onClick={() => navigate('/')} style={{ marginLeft: '18px' }} >
@@ -73,4 +73,4 @@ const ItemHistoricalProject = () => {
     }
 }
 
-export default ItemHistoricalProject;
+export default ItemGreenProject;

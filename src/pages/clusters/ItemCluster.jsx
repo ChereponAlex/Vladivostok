@@ -81,17 +81,16 @@ const ItemCluster = () => {
                         <div className="background_cluster_1_page">
                             {[1, 2, 3, 4, 5, 6].map((button, index) => {
                                 return (
-                                   <>
-                                    <button 
-                                    className={`btn_logistic logistic_project_${index + 1}`} 
-                                    onClick={() => navigate(`/cluster/1/project/${index + 1}`)}
-                                    />
-                                    <button 
-                                    className={`btn_marker_logistic logistic_marker_project_${index + 1}`} 
-                                    onClick={() => navigate(`/cluster/1/project/${index + 1}`)}
-                                    />
-                                   </>
-
+                                    <>
+                                        <button
+                                            className={`btn_ logistic_project_${index + 1}`}
+                                            onClick={() => navigate(`/cluster/1/project/${index + 1}`)}
+                                        />
+                                        <button
+                                            className={`btn_marker_logistic logistic_marker_project_${index + 1}`}
+                                            onClick={() => navigate(`/cluster/1/project/${index + 1}`)}
+                                        />
+                                    </>
                                 )
                             })}
                             <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
@@ -104,54 +103,24 @@ const ItemCluster = () => {
             {
                 id == '2' ?
                     <>
-                        <div className="background_cluster_page" >
-                            <header className='header_cluster_1'>
-                                <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
-                                    <Back_btn className='header_cluster_logistic_btn_back' />
-                                    <div className='header_cluster_logistic_description_btn'>На главную</div>
-                                </div>
-                                <div className='header_description_cluster_logistic' style={{ paddingLeft: '30vw' }}>Зеленый каркас</div>
-                            </header>
-
-                            <main className='main_container'>
-
-                                <section className='section' >
-                                    {dataGreenFrameProject.map((item) => {
-
-                                        if (item.id <= 2) {
-                                            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
-                                        } else return null
-                                    })}
-                                </section>
-
-                                <section className='section_center_2'
-                                    style={{
-                                        background: `url(${background_cluster_2}) no-repeat center`,
-                                        backgroundSize: 'cover'
-                                    }}>
-                                    {dataGreenFrameProject.map(marker => {
-                                        return (
-                                            <div key={marker.id}>
-                                                <div className={`marker_map_logistic position_marker_green_frame_${marker.id}`} onClick={() => navigate(`/cluster/2/project/${marker.id}`)}>
-                                                    <div className={`number_marker`}>{marker.id}</div>
-                                                </div>
-                                                <div className={`description_marker position_description_marker_green_frame_${marker.id}`} onClick={() => navigate(`/cluster/2/project/${marker.id}`)}>{marker.title}</div>
-                                            </div>
-
-                                        )
-                                    })}
-                                    <Map4 className='centered-map' />
-                                </section>
-
-                                <section className='section'>
-                                    {dataGreenFrameProject.map((item) => {
-                                        if (item.id > 2) {
-                                            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
-                                        } else return null
-                                    })}
-                                </section>
-
-                            </main>
+                        <div className="background_cluster_2_page">
+                            {[1, 2, 3, 4].map((button, index) => {
+                                return (
+                                    <>
+                                        <button
+                                            className={`btn_ green_project_${index + 1}`}
+                                            onClick={() => navigate(`/cluster/2/project/${index + 1}`)}
+                                        />
+                                        <button
+                                            className={`btn_marker_green green_marker_project_${index + 1}`}
+                                            onClick={() => navigate(`/cluster/2/project/${index + 1}`)}
+                                        />
+                                    </>
+                                )
+                            })}
+                            <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
+                                <Back_btn className='header_cluster_logistic_btn_back' />
+                            </div>
                         </div>
                     </>
                     : null
@@ -159,50 +128,24 @@ const ItemCluster = () => {
             {
                 id == '3' ?
                     <>
-                        <div className="background_cluster_page" >
-                            <header className='header_cluster_1'>
-                                <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
-                                    <Back_btn className='header_cluster_logistic_btn_back' />
-                                    <div className='header_cluster_logistic_description_btn'>На главную</div>
-                                </div>
-                                <div className='header_description_cluster_logistic' style={{ paddingLeft: '3.5vw' }}>Центр креативной экономики(культурно-исторический центр)</div>
-                            </header>
-
-                            <main className='main_container'>
-
-                                <section className='section' >
-                                    {dataHistoricalProject.map((item) => {
-
-                                        if (item.id <= 2) {
-                                            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
-                                        } else return null
-                                    })}
-                                </section>
-
-                                <section className='section_center_3'>
-                                    {dataHistoricalProject.map(marker => {
-                                        return (
-                                            <div key={marker.id}>
-                                                <div className={`marker_map_logistic position_marker_historical_${marker.id}`} onClick={() => navigate(`/cluster/3/project/${marker.id}`)}>
-                                                    <div className={`number_marker`}>{marker.id}</div>
-                                                </div>
-                                                <div className={`description_marker position_description_marker_historical_${marker.id}`} onClick={() => navigate(`/cluster/3/project/${marker.id}`)}>{marker.title}</div>
-                                            </div>
-
-                                        )
-                                    })}
-                                    <Map4 className='centered-map' />
-                                </section>
-
-                                <section className='section'>
-                                    {dataHistoricalProject.map((item) => {
-                                        if (item.id > 2) {
-                                            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
-                                        } else return null
-                                    })}
-                                </section>
-
-                            </main>
+                        <div className="background_cluster_3_page">
+                            {[1, 2, 3, 4].map((button, index) => {
+                                return (
+                                    <>
+                                        <button
+                                            className={`btn_ historical_project_${index + 1}`}
+                                            onClick={() => navigate(`/cluster/3/project/${index + 1}`)}
+                                        />
+                                        <button
+                                            className={`btn_marker_historical historical_marker_project_${index + 1}`}
+                                            onClick={() => navigate(`/cluster/3/project/${index + 1}`)}
+                                        />
+                                    </>
+                                )
+                            })}
+                            <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
+                                <Back_btn className='header_cluster_logistic_btn_back' />
+                            </div>
                         </div>
                     </>
                     : null
@@ -210,50 +153,24 @@ const ItemCluster = () => {
             {
                 id == '4' ?
                     <>
-                        <div className="background_cluster_page" >
-                            <header className='header_cluster_1'>
-                                <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
-                                    <Back_btn className='header_cluster_logistic_btn_back' />
-                                    <div className='header_cluster_logistic_description_btn'>На главную</div>
-                                </div>
-                                <div className='header_description_cluster_logistic' style={{ paddingLeft: '7.5vw' }}>Научно-образовательный и технологический кластер</div>
-                            </header>
-
-                            <main className='main_container'>
-
-                                <section className='section' >
-                                    {dataTechnologyProject.map((item) => {
-
-                                        if (item.id <= 3) {
-                                            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
-                                        } else return null
-                                    })}
-                                </section>
-
-                                <section className='section_center_2'>
-                                    {dataTechnologyProject.map(marker => {
-                                        return (
-                                            <div key={marker.id}>
-                                                <div className={`marker_map_logistic position_marker_technology_${marker.id}`} onClick={() => navigate(`/cluster/4/project/${marker.id}`)}>
-                                                    <div className={`number_marker`}>{marker.id}</div>
-                                                </div>
-                                                <div className={`description_marker position_description_marker_technology_${marker.id}`} onClick={() => navigate(`/cluster/4/project/${marker.id}`)}>{marker.title}</div>
-                                            </div>
-
-                                        )
-                                    })}
-                                    <Map4 className='centered-map' />
-                                </section>
-
-                                <section className='section'>
-                                    {dataTechnologyProject.map((item) => {
-                                        if (item.id > 3) {
-                                            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
-                                        } else return null
-                                    })}
-                                </section>
-
-                            </main>
+                        <div className="background_cluster_4_page">
+                            {[1, 2, 3, 4, 5].map((button, index) => {
+                                return (
+                                    <>
+                                        <button
+                                            className={`btn_ scientific_project_${index + 1}`}
+                                            onClick={() => navigate(`/cluster/4/project/${index + 1}`)}
+                                        />
+                                        <button
+                                            className={`btn_marker_scientific scientific_marker_project_${index + 1}`}
+                                            onClick={() => navigate(`/cluster/4/project/${index + 1}`)}
+                                        />
+                                    </>
+                                )
+                            })}
+                            <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
+                                <Back_btn className='header_cluster_logistic_btn_back' />
+                            </div>
                         </div>
                     </>
                     : null
@@ -261,54 +178,24 @@ const ItemCluster = () => {
             {
                 id == '5' ?
                     <>
-                        <div className="background_cluster_page" >
-                            <header className='header_cluster_1'>
-                                <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
-                                    <Back_btn className='header_cluster_logistic_btn_back' />
-                                    <div className='header_cluster_logistic_description_btn'>На главную</div>
-                                </div>
-                                <div className='header_description_cluster_logistic' style={{ paddingLeft: '17.5vw' }}>Туристско-рекреационный кластер</div>
-                            </header>
-
-                            <main className='main_container'>
-
-                                <section className='section' >
-                                    {dataTouristicProject.map((item) => {
-
-                                        if (item.id <= 2) {
-                                            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
-                                        } else return null
-                                    })}
-                                </section>
-
-                                <section className='section_center_2'
-                                    style={{
-                                        background: `url(${background_cluster_5}) no-repeat center`,
-                                        backgroundSize: 'cover'
-                                    }}>
-                                    {dataTouristicProject.map(marker => {
-                                        return (
-                                            <div key={marker.id}>
-                                                <div className={`marker_map_logistic position_marker_touristic_${marker.id}`} onClick={() => navigate(`/cluster/5/project/${marker.id}`)}>
-                                                    <div className={`number_marker`}>{marker.id}</div>
-                                                </div>
-                                                <div className={`description_marker position_description_marker_touristic_${marker.id}`} onClick={() => navigate(`/cluster/5/project/${marker.id}`)}>{marker.title}</div>
-                                            </div>
-
-                                        )
-                                    })}
-                                    <Map4 className='centered-map' />
-                                </section>
-
-                                <section className='section'>
-                                    {dataTouristicProject.map((item) => {
-                                        if (item.id > 2) {
-                                            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
-                                        } else return null
-                                    })}
-                                </section>
-
-                            </main>
+                        <div className="background_cluster_5_page">
+                            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17].map((button, index) => {
+                                return (
+                                    <>
+                                        <button
+                                            className={`btn_ touristic_project_${index + 1}`}
+                                            onClick={() => navigate(`/cluster/5/project/${index + 1}`)}
+                                        />
+                                        <button
+                                            className={`btn_marker_touristic touristic_marker_project_${index + 1}`}
+                                            onClick={() => navigate(`/cluster/5/project/${index + 1}`)}
+                                        />
+                                    </>
+                                )
+                            })}
+                            <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
+                                <Back_btn className='header_cluster_logistic_btn_back' />
+                            </div>
                         </div>
                     </>
                     : null
@@ -316,54 +203,24 @@ const ItemCluster = () => {
             {
                 id == '6' ?
                     <>
-                        <div className="background_cluster_page" >
-                            <header className='header_cluster_1'>
-                                <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
-                                    <Back_btn className='header_cluster_logistic_btn_back' />
-                                    <div className='header_cluster_logistic_description_btn'>На главную</div>
-                                </div>
-                                <div className='header_description_cluster_logistic' style={{ paddingLeft: '35.5vw' }}>г. Артем</div>
-                            </header>
-
-                            <main className='main_container'>
-
-                                <section className='section' >
-                                    {dataArtemProject.map((item) => {
-
-                                        if (item.id <= 2) {
-                                            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
-                                        } else return null
-                                    })}
-                                </section>
-
-                                <section className='section_center_2'
-                                    style={{
-                                        background: `url(${background_cluster_6}) no-repeat center`,
-                                        backgroundSize: 'cover',
-                                    }}>
-                                    {dataArtemProject.map(marker => {
-                                        return (
-                                            <div key={marker.id}>
-                                                <div className={`marker_map_logistic position_marker_artem_${marker.id}`} onClick={() => navigate(`/cluster/6/project/${marker.id}`)}>
-                                                    <div className={`number_marker`}>{marker.id}</div>
-                                                </div>
-                                                <div className={`description_marker position_description_marker_artem_${marker.id}`} onClick={() => navigate(`/cluster/6/project/${marker.id}`)}>{marker.title}</div>
-                                            </div>
-
-                                        )
-                                    })}
-                                    <Map4 className='centered-map' /* style={{position: 'relative', top: '200px', right: '100px'}} */ />
-                                </section>
-
-                                <section className='section'>
-                                    {dataArtemProject.map((item) => {
-                                        if (item.id > 2) {
-                                            return <ClusterCell key={item.id} clusterID={item.id} {...item} />
-                                        } else return null
-                                    })}
-                                </section>
-
-                            </main>
+                        <div className="background_cluster_6_page">
+                            {[1, 2, 3, 4].map((button, index) => {
+                                return (
+                                    <>
+                                        <button
+                                            className={`btn_ artem_project_${index + 1}`}
+                                            onClick={() => navigate(`/cluster/6/project/${index + 1}`)}
+                                        />
+                                        <button
+                                            className={`btn_marker_artem artem_marker_project_${index + 1}`}
+                                            onClick={() => navigate(`/cluster/6/project/${index + 1}`)}
+                                        />
+                                    </>
+                                )
+                            })}
+                            <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
+                                <Back_btn className='header_cluster_logistic_btn_back' />
+                            </div>
                         </div>
                     </>
                     : null
