@@ -87,11 +87,6 @@
     max-height: 85vh;
 }
 
-@media screen and (max-width: 1650px) {
-    .content {
-        width: 95%;
-    }
-}
 
 .background__image {
     object-fit: contain;
