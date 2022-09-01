@@ -18,6 +18,7 @@ const MainPage = () => {
   const navigate = useNavigate();
   const changeRoute = (id) => {
     if(id === 'invest_scroll_page') {
+      console.log(id)
       navigate(`/additional-invest`)
     } 
     else if(id === 'invest_page') {
