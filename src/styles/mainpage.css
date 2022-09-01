@@ -38,7 +38,7 @@
 }
 
 .app-container {
-    min-height: 100vh; 
+    min-height: 100vh;
 }
 
 .title {
@@ -200,14 +200,15 @@
     left: 11.3%;
     z-index: 2;
 }
-.island_naumova{
+
+.island_naumova {
     position: absolute;
     top: 77.5%;
     left: 16.5%;
     z-index: 2;
 }
 
-.town_sputnik{
+.town_sputnik {
     position: absolute;
     top: 10.75%;
     left: 12.5%;
@@ -247,6 +248,10 @@
 
 
 #path_5 {
+    cursor: pointer;
+}
+
+#path_6 {
     cursor: pointer;
 }
 
@@ -629,7 +634,8 @@ a {
     top: 42.5%;
     right: 84.2%;
 }
-.bridge_bay_new{
+
+.bridge_bay_new {
     position: absolute;
     top: 56%;
     right: 56.5%;
@@ -690,6 +696,7 @@ a {
     top: 69%;
     min-width: 280px;
 }
+
 .text_location_6 {
     position: absolute;
     left: 44%;
@@ -879,7 +886,8 @@ a {
     left: 9.7%;
     top: 57%;
 }
-.port_text{
+
+.port_text {
     font-family: 'Graphik LC Web', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -888,21 +896,22 @@ a {
     text-align: center;
     color: #FFFFFF;
 }
-.port_location_1{
+
+.port_location_1 {
     position: absolute;
     top: 19%;
     left: 51.6%;
     z-index: 2;
 }
 
-.port_location_2{
+.port_location_2 {
     position: absolute;
     top: 43%;
     left: 59%;
     z-index: 2;
 }
 
-.invest_text{
+.invest_text {
     font-family: 'Graphik LC Web', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -913,26 +922,28 @@ a {
     text-shadow: 0 0 4px #000000;
 }
 
-.invest_location_1{
+.invest_location_1 {
     position: absolute;
     top: 81.7%;
     left: 12.1%;
     z-index: 2;
 }
-.invest_location_2{
+
+.invest_location_2 {
     position: absolute;
     top: 72%;
     left: 15%;
     z-index: 2;
 }
-.invest_location_3{
+
+.invest_location_3 {
     position: absolute;
     top: 36%;
     left: 18.75%;
     z-index: 2;
 }
 
-.container_gerbs{
+.container_gerbs {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -944,13 +955,14 @@ a {
     max-width: 600px;
     /* width: auto; */
 }
-.container_gerbs_item{
+
+.container_gerbs_item {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.gerb_text{
+.gerb_text {
     font-family: 'Graphik LC Web', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -962,11 +974,16 @@ a {
 }
 
 
-#invest_scroll_page, #invest_page{
+#invest_scroll_page,
+#invest_page {
     cursor: pointer;
 }
 
-@media screen and (min-width: 3000px){
+#vkad {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 3000px) {
     .town_sputnik {
         top: 11.5%;
         left: 15.5%;

@@ -23,6 +23,9 @@ const MainPage = () => {
     else if(id === 'invest_page') {
       navigate(`/information`)
     } 
+    else if(id === 'vkad') {
+      navigate(`/vkad`)
+    } 
     else {
       const parseID = id[id.length - 1];
       if (parseID) navigate(`/cluster/${parseID}`);
