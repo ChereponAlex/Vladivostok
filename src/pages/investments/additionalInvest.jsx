@@ -1,21 +1,41 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ReactComponent as Back_btn_border } from '../../images/backButton_border.svg';
 import { ReactComponent as Back_home_border } from '../../images/back_home_border.svg';
 import InvestImg from '../../images/invest/background_invest_scroll_page.jpg';
-import {ReactComponent as Icon_scroll} from '../../images/invest/icon_scroll.svg';
+import { ReactComponent as Icon_scroll } from '../../images/invest/icon_scroll.svg';
 
 export const AdditionalInvest = () => {
 
+  const [scroll, setScroll] = useState(true)
+
   const isBottom = (el) => {
-    return el.getBoundingClientRect().top <= window.innerHeight
+    return el.getBoundingClientRect().bottom >= window.innerHeight + 1500
   }
+
+  const handleScroll = () => {
+    const iconScroll = document.getElementById("scroll");
+    if(isBottom(iconScroll)) {
+      setScroll(true)
+    } else {
+      setScroll(false)
+    }
+  }
+
+  useEffect(() => {
+    const container = document.getElementById("page-cont")
+    container.addEventListener("scroll", handleScroll)
+    return function cleanup() {
+      container.removeEventListener("scroll", handleScroll)
+    }
+  }, [])
 
   const navigate = useNavigate();
   return (
 
-    <div className='container_add_invest'>
+    <div id='page-cont' className='container_add_invest'>
       <img
+        id="scroll"
         className={"background_add_invest"}
         src={InvestImg}
       />
@@ -27,7 +47,14 @@ export const AdditionalInvest = () => {
           <Back_home_border className='header_icons' />
         </div>
       </div>
-      <Icon_scroll className='icon_scroll'/>
+      {
+        scroll
+          ?
+          <Icon_scroll  className='icon_scroll' />
+          :
+          null
+      }
+
     </div>
   )
 }

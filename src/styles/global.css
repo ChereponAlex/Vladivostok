@@ -944,3 +944,6 @@
     height: 100vh;
     z-index: 1; 
 }
+::-webkit-scrollbar {
+  width: 0;
+}
