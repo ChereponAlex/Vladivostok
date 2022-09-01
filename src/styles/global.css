@@ -21,44 +21,44 @@
 .background_project_1{
     background: url('../images/cluster_1/project_logistic/project_1.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 
 .background_project_2{
     background: url('../images/cluster_1/project_logistic/project_2.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_project_3{
     background: url('../images/cluster_1/project_logistic/project_3.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_project_4{
     background: url('../images/cluster_1/project_logistic/project_4.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_project_5{
     background: url('../images/cluster_1/project_logistic/project_5.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_project_6{
     background: url('../images/cluster_1/project_logistic/project_6.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_cluster_1_page {  
@@ -173,30 +173,30 @@
 .background_gree_project_1{
     background: url('../images/cluster_2/project_green/project_1.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 
 .background_gree_project_2{
     background: url('../images/cluster_2/project_green/project_2.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_gree_project_3{
     background: url('../images/cluster_2/project_green/project_3.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_gree_project_4{
     background: url('../images/cluster_2/project_green/project_4.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 
@@ -268,30 +268,30 @@
 .background_historical_project_1{
     background: url('../images/cluster_3/project_historical/project_1.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 
 .background_historical_project_2{
     background: url('../images/cluster_3/project_historical/project_2.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_historical_project_3{
     background: url('../images/cluster_3/project_historical/project_3.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_historical_project_4{
     background: url('../images/cluster_3/project_historical/project_4.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 
@@ -379,37 +379,37 @@
 .background_scientific_project_1{
     background: url('../images/cluster_4/project_scientific/project_1.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 
 .background_scientific_project_2{
     background: url('../images/cluster_4/project_scientific/project_2.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_scientific_project_3{
     background: url('../images/cluster_4/project_scientific/project_3.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_scientific_project_4{
     background: url('../images/cluster_4/project_scientific/project_4.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_scientific_project_5{
     background: url('../images/cluster_4/project_scientific/project_5.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 
@@ -494,8 +494,8 @@
 .background_touristic_project_1{
     background: url('../images/cluster_5/project_touristic/project_1.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 
@@ -509,107 +509,107 @@
 .background_touristic_project_3{
     background: url('../images/cluster_5/project_touristic/project_3.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_touristic_project_4{
     background: url('../images/cluster_5/project_touristic/project_4.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_touristic_project_5{
     background: url('../images/cluster_5/project_touristic/project_5.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_touristic_project_6{
     background: url('../images/cluster_5/project_touristic/project_6.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_touristic_project_7{
     background: url('../images/cluster_5/project_touristic/project_7.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_touristic_project_8{
     background: url('../images/cluster_5/project_touristic/project_8.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_touristic_project_9{
     background: url('../images/cluster_5/project_touristic/project_9.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_touristic_project_10{
     background: url('../images/cluster_5/project_touristic/project_10.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_touristic_project_11{
     background: url('../images/cluster_5/project_touristic/project_11.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_touristic_project_12{
     background: url('../images/cluster_5/project_touristic/project_12.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_touristic_project_13{
     background: url('../images/cluster_5/project_touristic/project_13.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_touristic_project_14{
     background: url('../images/cluster_5/project_touristic/project_14.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_touristic_project_15{
     background: url('../images/cluster_5/project_touristic/project_15.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_touristic_project_16{
     background: url('../images/cluster_5/project_touristic/project_16.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 
 .background_touristic_project_17{
     background: url('../images/cluster_5/project_touristic/project_17.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 
@@ -832,30 +832,30 @@
 .background_artem_project_1{
     background: url('../images/cluster_6/project_artem/project_1.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 
 .background_artem_project_2{
     background: url('../images/cluster_6/project_artem/project_2.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_artem_project_3{
     background: url('../images/cluster_6/project_artem/project_3.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 .background_artem_project_4{
     background: url('../images/cluster_6/project_artem/project_4.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 }
 
@@ -910,4 +910,25 @@
     position: absolute;
     top: 62.2%;
     left: 69.3%;
+}
+
+
+.container_add_invest{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+
+.background_add_invest{
+    object-fit: contain;
+    width: 100%;
+}
+
+.background_information{
+    background: url('../images/invest/background_invest_page.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1; 
 }

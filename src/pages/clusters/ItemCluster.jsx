@@ -106,7 +106,7 @@ const ItemCluster = () => {
                         <div className="background_cluster_2_page">
                             {[1, 2, 3, 4].map((button, index) => {
                                 return (
-                                    <>
+                                    <div key={index}>
                                         <button
                                             className={`btn_ green_project_${index + 1}`}
                                             onClick={() => navigate(`/cluster/2/project/${index + 1}`)}
@@ -115,7 +115,7 @@ const ItemCluster = () => {
                                             className={`btn_marker_green green_marker_project_${index + 1}`}
                                             onClick={() => navigate(`/cluster/2/project/${index + 1}`)}
                                         />
-                                    </>
+                                    </div>
                                 )
                             })}
                             <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
@@ -131,7 +131,7 @@ const ItemCluster = () => {
                         <div className="background_cluster_3_page">
                             {[1, 2, 3, 4].map((button, index) => {
                                 return (
-                                    <>
+                                    <div key={index}>
                                         <button
                                             className={`btn_ historical_project_${index + 1}`}
                                             onClick={() => navigate(`/cluster/3/project/${index + 1}`)}
@@ -140,7 +140,7 @@ const ItemCluster = () => {
                                             className={`btn_marker_historical historical_marker_project_${index + 1}`}
                                             onClick={() => navigate(`/cluster/3/project/${index + 1}`)}
                                         />
-                                    </>
+                                    </div>
                                 )
                             })}
                             <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
@@ -156,7 +156,7 @@ const ItemCluster = () => {
                         <div className="background_cluster_4_page">
                             {[1, 2, 3, 4, 5].map((button, index) => {
                                 return (
-                                    <>
+                                    <div key={index}>
                                         <button
                                             className={`btn_ scientific_project_${index + 1}`}
                                             onClick={() => navigate(`/cluster/4/project/${index + 1}`)}
@@ -165,7 +165,7 @@ const ItemCluster = () => {
                                             className={`btn_marker_scientific scientific_marker_project_${index + 1}`}
                                             onClick={() => navigate(`/cluster/4/project/${index + 1}`)}
                                         />
-                                    </>
+                                    </div>
                                 )
                             })}
                             <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
@@ -181,7 +181,7 @@ const ItemCluster = () => {
                         <div className="background_cluster_5_page">
                             {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17].map((button, index) => {
                                 return (
-                                    <>
+                                    <div key={index}>
                                         <button
                                             className={`btn_ touristic_project_${index + 1}`}
                                             onClick={() => navigate(`/cluster/5/project/${index + 1}`)}
@@ -190,7 +190,7 @@ const ItemCluster = () => {
                                             className={`btn_marker_touristic touristic_marker_project_${index + 1}`}
                                             onClick={() => navigate(`/cluster/5/project/${index + 1}`)}
                                         />
-                                    </>
+                                    </div>
                                 )
                             })}
                             <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
@@ -206,7 +206,7 @@ const ItemCluster = () => {
                         <div className="background_cluster_6_page">
                             {[1, 2, 3, 4].map((button, index) => {
                                 return (
-                                    <>
+                                    <div key={index}>
                                         <button
                                             className={`btn_ artem_project_${index + 1}`}
                                             onClick={() => navigate(`/cluster/6/project/${index + 1}`)}
@@ -215,7 +215,7 @@ const ItemCluster = () => {
                                             className={`btn_marker_artem artem_marker_project_${index + 1}`}
                                             onClick={() => navigate(`/cluster/6/project/${index + 1}`)}
                                         />
-                                    </>
+                                    </div>
                                 )
                             })}
                             <div className='header_cluster_logistic_btn_container' onClick={() => navigate('/')}>
