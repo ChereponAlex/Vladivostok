@@ -41,7 +41,6 @@ const MainPage = () => {
         <BackgroundSVG
           className="background_svg"
           onClick={(e) => {
-            console.log(e.target);
             changeRoute(e.target.id);
           }}
         />
