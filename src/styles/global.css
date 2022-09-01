@@ -917,6 +917,7 @@
     width: 100vw;
     height: 100vh;
     overflow-y: scroll;
+    background: #0b111f;
 }
 
 
@@ -928,6 +929,12 @@
     position: absolute;
     bottom: 2%;
     left: 48.7%;
+}
+.icon_arrow{
+
+    position: absolute;
+    bottom: 3.5%;
+    left: 49.6%;
 }
 
 .background_information{

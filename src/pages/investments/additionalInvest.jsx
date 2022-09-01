@@ -4,6 +4,11 @@ import { ReactComponent as Back_btn_border } from '../../images/backButton_borde
 import { ReactComponent as Back_home_border } from '../../images/back_home_border.svg';
 import InvestImg from '../../images/invest/background_invest_scroll_page.jpg';
 import { ReactComponent as Icon_scroll } from '../../images/invest/icon_scroll.svg';
+// import { ReactComponent as Arrow } from '../../images/invest/arrow-left.svg';
+
+import Icon_container from '../../images/invest/icon_scroll_container.png';
+import Arrow from '../../images/invest/arrow.png';
+
 
 export const AdditionalInvest = () => {
 
@@ -15,7 +20,7 @@ export const AdditionalInvest = () => {
 
   const handleScroll = () => {
     const iconScroll = document.getElementById("scroll");
-    if(isBottom(iconScroll)) {
+    if (isBottom(iconScroll)) {
       setScroll(true)
     } else {
       setScroll(false)
@@ -50,7 +55,16 @@ export const AdditionalInvest = () => {
       {
         scroll
           ?
-          <Icon_scroll  className='icon_scroll' />
+          <>
+            {/* <Icon_scroll className='icon_scroll'>
+              <img src={Arrow} className='icon_arrow'/>
+              <Arrow className='icon_arrow' />
+            </Icon_scroll> */}
+
+            <img src={Icon_container} className='icon_scroll' />
+            <img src={Arrow} className='icon_arrow' />
+          </>
+
           :
           null
       }
