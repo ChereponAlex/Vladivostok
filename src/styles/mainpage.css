@@ -83,9 +83,10 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    width: fit-content;
+    width: 95%;
     aspect-ratio: 16 / 9;
     max-height: 85vh;
+    max-width: 3728px;
 }
 
 
