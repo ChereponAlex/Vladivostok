@@ -3,8 +3,9 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import encodeURI from "../utils/encodeURI";
 import MapBoxContainer from "../components/MapBoxContainer";
-// import {ReactComponent as BackgroundSVG} from "../images/background_mainpage.svg";
-import { ReactComponent as BackgroundSVG } from "../images/background_mainpage.svg";
+//import { ReactComponent as BackgroundSVG } from "../images/background_mainpage.svg";
+import { ReactComponent as BackgroundSVG } from "../images/background_mainpage_texts.svg";
+
 import BackgroundMap from "../images/background_high_quality.jpg";
 
 import dataClusters from "../helper/dataClusters";
@@ -46,37 +47,39 @@ const MainPage = () => {
           /> */}
         <BackgroundSVG
           className="background_svg"
-          onClick={(e) => changeRoute(e.target.id)}
+          onClick={(e) => {
+            changeRoute(e.target.id);
+          }}
         />
         <div className={"texts"}>
           <div className={"texts_content"}>
-            <div className="text_sea amur_bay_position">Амурский залив</div>
-            <div className="text_sea ussuri_bay_position">
+            {/*<div className="text_sea amur_bay_position">Амурский залив</div>
+              <div className="text_sea ussuri_bay_position">
               Уссурийский залив
-            </div>
+              </div>
 
-            <div className="text_city big_stone_position">Большой камень</div>
+              <div className="text_city big_stone_position">Большой камень</div>*/}
             {/* <div className='text_city artem_position'>г. Артем</div> */}
-            <div className="text_city vladivostok_position">г. Владивосток</div>
-            <div className="text_city island_russian_position">о. Русский</div>
-            <div className="text_city aeroport">
+            {/*<div className="text_city vladivostok_position">г. Владивосток</div>
+              <div className="text_city island_russian_position">о. Русский</div>
+              <div className="text_city aeroport">
               Международный аэропорт <br /> Владивосток им. В.К. Арсеньева
-            </div>
-            <div className="text_city tor_nadeschdin">ТОР Надеждинская</div>
+              </div>
+              <div className="text_city tor_nadeschdin">ТОР Надеждинская</div>*/}
             {/*<div className="text_city sanding">мыс Песчаный</div>*/}
-            <div className="text_city bridge_elena">
-              Новый мост <br /> на о. Елены
+            {/*<div className="text_city bridge_elena">
+              Новый мост <br/> на о. Елены
             </div>
-            <div className="text_city bridge_bay_new">
+              <div className="text_city bridge_bay_new">
               Новый мост через <br /> бух. Новика
-            </div>
+              </div>
 
-            <div className="text_city island_popova">о. Попова</div>
-            <div className="text_city island_reineke">о. Рейнеке</div>
-            <div className="text_city island_naumova">о. Наумова</div>
-            <div className="text_city town_sputnik">
+              <div className="text_city island_popova">о. Попова</div>
+              <div className="text_city island_reineke">о. Рейнеке</div>
+              <div className="text_city island_naumova">о. Наумова</div>
+              <div className="text_city town_sputnik">
               Город-спутник <br /> Владивостока
-            </div>
+              </div>*/}
 
             <div className="container_gerbs">
               {dataGerbs.map(({ id, title, gerb }) => {
@@ -93,7 +96,7 @@ const MainPage = () => {
               })}
             </div>
 
-            {dataInvest.map(({ id, title }) => {
+            {/*dataInvest.map(({ id, title }) => {
               if (id && title) {
                 return (
                   <p key={id} className={`invest_text invest_location_${id}`}>
@@ -101,17 +104,17 @@ const MainPage = () => {
                   </p>
                 );
               }
-            })}
+            })*/}
 
-            {dataPorts.map(({ id, title }) => {
+            {/*dataPorts.map(({ id, title }) => {
               return (
                 <p key={id} className={`port_text port_location_${id}`}>
                   {title}
                 </p>
               );
-            })}
+            })*/}
 
-            {dataTransport.map(({ id, title, color, point }) => {
+            {/*dataTransport.map(({ id, title, color, point }) => {
               return (
                 <div
                   key={id}
@@ -124,9 +127,9 @@ const MainPage = () => {
                   </div>
                 </div>
               );
-            })}
+            })*/}
 
-            {dataClusters.map((cluster) => {
+            {/*dataClusters.map((cluster) => {
               return (
                 <div
                   onClick={() => navigate(`/cluster/${cluster.id}`)}
@@ -137,7 +140,7 @@ const MainPage = () => {
                   <p className="cluster_block_text">{cluster.title}</p>
                 </div>
               );
-            })}
+            })*/}
             {/* <div className='container_background_svg'> */}
             {/* </div> */}
           </div>{" "}
