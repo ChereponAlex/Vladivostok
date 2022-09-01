@@ -16,9 +16,16 @@ import dataGerbs from "../helper/dataGerbs";
 const MainPage = () => {
   const navigate = useNavigate();
   const changeRoute = (id) => {
-    console.log(id);
-    const parseID = id[id.length - 1];
-    if (parseID) navigate(`/cluster/${parseID}`);
+    if(id === 'invest_scroll_page') {
+      navigate(`/additional-invest`)
+    } 
+    else if(id === 'invest_page') {
+      navigate(`/information`)
+    } 
+    else {
+      const parseID = id[id.length - 1];
+      if (parseID) navigate(`/cluster/${parseID}`);
+    }
   };
   return (
     <div className="main-page-background">

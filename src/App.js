@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import MainPage from './pages/MainPage';
 import ItemCluster from './pages/clusters/ItemCluster';
 import { ProjectsPage } from './pages/projects/ProjectsPage';
+import AdditionalInvest from './pages/investments/additionalInvest';
+import Information from './pages/investments/Information';
 
 import ItemLogisticProject from './pages/projects/ItemLogisticProject';
 import ItemHistoricalProject from './pages/projects/itemHistoricalProject';
@@ -18,7 +20,7 @@ import cluster_6 from '../src/styles/cluster_6.css';
 import historical_project_1 from '../src/styles/historical_project_1.css'
 
 import project_4 from '../src/styles/project_4.css'
-import global  from '../src/styles/global.css'
+import global from '../src/styles/global.css'
 
 import React, { useState, useEffect } from 'react';
 import ClipLoader from "react-spinners/ClipLoader";
@@ -40,7 +42,7 @@ function App() {
 
   return (
     <div className='app-container'>
-      
+
       {/* {loading ? <ClipLoader  className='loader' color={'#4362ff'} loading={loading} size={150}/>
       :  null
       } */}
@@ -49,9 +51,8 @@ function App() {
           <Route path='/' element={<MainPage />} />
           <Route path='/cluster/:id' element={<ItemCluster />} />
           <Route path='/cluster/:clusterID/project/:projectID' element={<ProjectsPage />} />
-          {/* <Route path='/cluster/:clusterID/project/:projectID' element={<ItemHistoricalProject />} /> */}
-          {/* <Route path='/cluster/:id/project/:id' element={<ItemHistoricalProject />} /> */}
-
+          <Route path='/additional-invest' element={<AdditionalInvest />} />
+          <Route path='/information' element={<Information />} />
         </Routes>
       </BrowserRouter>
     </div>
@@ -60,14 +61,3 @@ function App() {
 }
 
 export default App;
-
-
-
-{/* <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<MainPage />} />
-          <Route path='/cluster/:id' element={<ItemCluster />} />
-          <Route path='/cluster/:id/project/:id' element={<ItemLogisticProject />} />
-
-        </Routes>
-      </BrowserRouter> */} 
