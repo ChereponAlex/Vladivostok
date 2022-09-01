@@ -499,13 +499,13 @@
     z-index: 1;
 }
 
-/* .background_touristic_project_2{
+.background_touristic_project_2{
     background: url('../images/cluster_5/project_touristic/project_2.jpg') no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
-} */
+}
 .background_touristic_project_3{
     background: url('../images/cluster_5/project_touristic/project_3.jpg') no-repeat;
     background-size: 100% 100%;
@@ -924,9 +924,21 @@
     object-fit: contain;
     width: 100%;
 }
+.icon_scroll{
+    position: absolute;
+    bottom: 2%;
+    left: 48.7%;
+}
 
 .background_information{
     background: url('../images/invest/background_invest_page.jpg') no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1; 
+}
+.background_vkad{
+    background: url('../images/vkad/vkad2.png') no-repeat;
     background-size: 100% 100%;
     width: 100vw;
     height: 100vh;

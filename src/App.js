@@ -5,6 +5,7 @@ import ItemCluster from './pages/clusters/ItemCluster';
 import { ProjectsPage } from './pages/projects/ProjectsPage';
 import AdditionalInvest from './pages/investments/additionalInvest';
 import Information from './pages/investments/Information';
+import Vkad from './pages/vkad/vkad';
 
 import ItemLogisticProject from './pages/projects/ItemLogisticProject';
 import ItemHistoricalProject from './pages/projects/itemHistoricalProject';
@@ -53,6 +54,8 @@ function App() {
           <Route path='/cluster/:clusterID/project/:projectID' element={<ProjectsPage />} />
           <Route path='/additional-invest' element={<AdditionalInvest />} />
           <Route path='/information' element={<Information />} />
+          <Route path='/vkad' element={<Vkad />} />
+
         </Routes>
       </BrowserRouter>
     </div>
