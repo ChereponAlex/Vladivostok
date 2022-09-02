@@ -27,6 +27,9 @@ const MainPage = () => {
     else if(id === 'vkad') {
       navigate(`/vkad`)
     } 
+    else if(id === 'metro') {
+      navigate(`/metro`)
+    } 
     else {
       const parseID = id[id.length - 1];
       if (parseID) navigate(`/cluster/${parseID}`);

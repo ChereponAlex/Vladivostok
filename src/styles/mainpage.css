@@ -982,6 +982,10 @@ a {
 #vkad {
     cursor: pointer;
 }
+#metro{
+    cursor: pointer;
+
+}
 
 @media screen and (min-width: 3000px) {
     .town_sputnik {
