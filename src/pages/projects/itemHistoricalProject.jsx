@@ -67,6 +67,20 @@ const ItemHistoricalProject = () => {
                 </div>
             )
             break;
+        case '5':
+            return (
+                <div className='background_historical_project_5'>
+                    <div className='btn_back_container' >
+                        <div className='btn_back_cluster' onClick={() => navigate('/cluster/3')}>
+                            <Back_btn className='header_icons' />
+                        </div>
+                        <div className='btn_back_cluster' onClick={() => navigate('/')} style={{ marginLeft: '18px' }} >
+                            <Back_home className='header_icons' />
+                        </div>
+                    </div>
+                </div>
+            )
+            break;
 
         default:
             break;

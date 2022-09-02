@@ -6,6 +6,7 @@ import { ProjectsPage } from './pages/projects/ProjectsPage';
 import AdditionalInvest from './pages/investments/additionalInvest';
 import Information from './pages/investments/Information';
 import Vkad from './pages/vkad/vkad';
+import Metro from './pages/metro/metro';
 
 import ItemLogisticProject from './pages/projects/ItemLogisticProject';
 import ItemHistoricalProject from './pages/projects/itemHistoricalProject';
@@ -55,6 +56,7 @@ function App() {
           <Route path='/additional-invest' element={<AdditionalInvest />} />
           <Route path='/information' element={<Information />} />
           <Route path='/vkad' element={<Vkad />} />
+          <Route path='/metro' element={<Metro />} />
 
         </Routes>
       </BrowserRouter>

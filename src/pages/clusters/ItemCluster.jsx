@@ -129,7 +129,7 @@ const ItemCluster = () => {
                 id == '3' ?
                     <>
                         <div className="background_cluster_3_page">
-                            {[1, 2, 3, 4].map((button, index) => {
+                            {[1, 2, 3, 4, 5].map((button, index) => {
                                 return (
                                     <div key={index}>
                                         <button
