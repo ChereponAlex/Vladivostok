@@ -193,7 +193,7 @@
 }
 
 
-.section_center {
+/* .section_center {
     background: url('../images/test.jpg') no-repeat center;
     background-size: 100% 100%;
     position: relative;
@@ -202,7 +202,7 @@
     z-index: 20;
     border-radius: 15px;
 
-}
+} */
 
 .centered-map {
     position: absolute;

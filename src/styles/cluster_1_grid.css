@@ -178,13 +178,13 @@
     flex-direction: column;
 }
 
-.section_center {
+/* .section_center {
     position: relative;
     background: url('../images/test.jpg') no-repeat center;
     background-size: 100% 100%;
     border-radius: 15px;
-    /* background-color: green; */
-}
+    background-color: green;
+} */
 
 .centered-map {
     position: relative;
@@ -403,10 +403,10 @@
 
 /* ===========================Cluster_4============= */
 
-.section_center_2 {
+/* .section_center_2 {
     position: relative;
     background: url('../images/background_cluster_4.jpg') no-repeat center;
     background-size: 100% 100%;
     border-radius: 15px;
-    /* background-color: green; */
-}
+    background-color: green;
+} */

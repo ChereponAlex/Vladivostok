@@ -9,8 +9,7 @@ import ItemArtemProject from './itemArtemProject';
 import { useParams } from "react-router-dom";
 
 export const ProjectsPage = () => {
-    const { clusterID } = useParams();
-    console.log(clusterID)
+    const { clusterID } = useParams();    
 
     switch (clusterID) {
         case '1':
