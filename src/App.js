@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Helmet } from "react-helmet";
 
 import MainPage from './pages/MainPage';
 import ItemCluster from './pages/clusters/ItemCluster';
@@ -11,7 +12,7 @@ import Metro from './pages/metro/metro';
 import ItemLogisticProject from './pages/projects/ItemLogisticProject';
 import ItemHistoricalProject from './pages/projects/itemHistoricalProject';
 import mainpage from '../src/styles/mainpage.css';
-// import cluster_1 from '../src/styles/cluster_1.css';
+
 import cluster_1_grid from '../src/styles/cluster_1_grid.css';
 import cluster_2 from '../src/styles/cluster_2.css';
 import cluster_3 from '../src/styles/cluster_3.css';
@@ -19,18 +20,11 @@ import cluster_4 from '../src/styles/cluster_4.css';
 import cluster_5 from '../src/styles/cluster_5.css';
 import cluster_6 from '../src/styles/cluster_6.css';
 
-import historical_project_1 from '../src/styles/historical_project_1.css'
-
-import project_4 from '../src/styles/project_4.css'
-import global from '../src/styles/global.css'
-
+import historical_project_1 from '../src/styles/historical_project_1.css';
+import project_4 from '../src/styles/project_4.css';
+import global from '../src/styles/global.css';
 import React, { useState, useEffect } from 'react';
-import ClipLoader from "react-spinners/ClipLoader";
 
-// import '../src/fonts/Graphik-Black-Web.ttf';
-// import '../src/fonts/Graphik-Bold-Web.ttf';
-// import '../src/fonts/Graphik-Medium-Web.ttf';
-// import '../src/fonts/Graphik-Regular-Web.ttf';
 
 
 function App() {
@@ -44,10 +38,11 @@ function App() {
 
   return (
     <div className='app-container'>
-
-      {/* {loading ? <ClipLoader  className='loader' color={'#4362ff'} loading={loading} size={150}/>
-      :  null
-      } */}
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Развитие Владивостокской агломерации — 2030</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<MainPage />} />
