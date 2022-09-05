@@ -945,14 +945,17 @@ a {
 
 .container_gerbs {
     position: absolute;
-    display: flex;
+    /*display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between;*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    gap: 40px;
     z-index: 10;
     bottom: 8%;
     right: 5%;
     width: 100%;
-    max-width: 600px;
+    max-width: 620px;
     /* width: auto; */
 }
 
@@ -960,6 +963,10 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.container_gerbs_item img {
+    width: 100%;
 }
 
 .gerb_text {
