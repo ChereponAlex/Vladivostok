@@ -8,19 +8,15 @@ import dataGerbs from "../helper/dataGerbs";
 const MainPage = () => {
   const navigate = useNavigate();
   const changeRoute = (id) => {
-    if (id === 'invest_scroll_page') {     
-      navigate(`/additional-invest`)
-    }
-    else if (id === 'invest_page') {
-      navigate(`/information`)
-    }
-    else if (id === 'vkad') {
-      navigate(`/vkad`)
-    }
-    else if (id === 'metro') {
-      navigate(`/metro`)
-    }
-    else {
+    if (id === "invest_scroll_page") {
+      navigate(`/additional-invest`);
+    } else if (id === "invest_page") {
+      navigate(`/information`);
+    } else if (id === "vkad") {
+      navigate(`/vkad`);
+    } else if (id === "metro") {
+      navigate(`/metro`);
+    } else {
       const parseID = id[id.length - 1];
       if (parseID) navigate(`/cluster/${parseID}`);
     }
@@ -51,7 +47,7 @@ const MainPage = () => {
                     <img
                       src={gerb}
                       alt={title}
-                      style={{ width: "71px", height: "78px" }}
+                      //style={{ width: "71px", height: "78px" }}
                     />
                     <div className="gerb_text">{title}</div>
                   </div>
