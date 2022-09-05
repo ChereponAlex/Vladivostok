@@ -967,6 +967,7 @@ a {
 
 .container_gerbs_item img {
     width: 100%;
+    max-height: 78px;
 }
 
 .gerb_text {
